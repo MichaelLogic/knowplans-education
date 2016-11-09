@@ -21,9 +21,57 @@ Go to kNOw Plans™ Registration Portal and create your free account.
 Immediately after creating your free account, you will be prompted to make up a kNOw Planner Name.  This will be a uniquely identifier that you will give to friends, family and fans to send you Digital Drink Certificates.
 
 
-## 3. Become a Promoter
+## Become a Promoter
 
-In case you haven't installed Bundler, install it:
+### 1. Go to "My Account"
+
+### 2. Click "Become A Promoter"
+
+### 3. Select Your License Type
+
+### 4. Payment
+
+
+## Registering a Venue
+
+### 1. Go to "My Account"
+
+### 2. Click "Register a Venue"
+
+
+## Accepting Digital Drink Certificates
+
+### 1. Go to "My Account"
+
+### 2. Click "Register a Venue"
+
+### 3. Venue Approval
+
+
+## Early Adopter Program
+
+### Preparing for Consumers
+
+### Earning "3%er" Agent Status
+
+### 3%er's Desk
+
+### Legal
+
+
+## The Beta Mobile App
+
+### Release Notes
+
+### Mobile Interface
+
+### Sending & Receiving DDCs
+
+### Impulse Alerts™ 
+
+### Food Truck Locator
+
+
 
 ```
 gem install bundler
@@ -80,28 +128,6 @@ Because each product uses a different sidebar, you'll need to set up your sideba
 
 The sidebarconfigs.html file uses simple `if elsif` logic to set a variable that the sidebar.html file uses to read the sidebar data file. The code in sidebarconfigs.html looks like this:
 
-{% raw %}
-```liquid
-{% if page.sidebar == "home_sidebar" %}
-{% assign sidebar = site.data.sidebars.home_sidebar.entries %}
-
-{% elsif page.sidebar == "product1_sidebar" %}
-{% assign sidebar = site.data.sidebars.product1_sidebar.entries %}
-
-{% elsif page.sidebar == "product2_sidebar" %}
-{% assign sidebar = site.data.sidebars.product2_sidebar.entries %}
-
-{% elsif page.sidebar == "mydoc_sidebar" %}
-{% assign sidebar = site.data.sidebars.mydoc_sidebar.entries %}
-
-{% else %}
-{% assign sidebar = site.data.sidebars.home_sidebar.entries %}
-{% endif %}
-```
-{% endraw %}
-
-In each page's frontmatter, you must specify the sidebar you want that page to use. Here's an example of the page frontmatter showing the sidebar property:
-
 <pre>
 ---
 title: Alerts
@@ -124,81 +150,6 @@ Note that your sidebar can only have 2 levels. Given that each product has its o
 
 For more detail on the sidebar, see [Sidebar navigation][mydoc_sidebar_navigation].
 
-## Sidebar syntax
-
-The sidebar data file uses a specific YAML syntax that you must follow. Follow the sample pattern shown in the theme. For example:
-
-```yaml
-entries:
-- title: sidebar
-  product: Jekyll Doc Theme
-  version: 6.0
-  folders:
-
-  - title: Overview
-    output: web, pdf
-    folderitems:
-
-    - title: Get started
-      url: /index.html
-      output: web, pdf
-
-    - title: Introduction
-      url: /mydoc_introduction.html
-      output: web, pdf
-
-    - title: Supported features
-      url: /mydoc_supported_features.html
-      output: web, pdf
-
-    - title: About the theme author
-      url: /mydoc_about.html
-      output: web, pdf
-
-    - title: Support
-      url: /mydoc_support.html
-      output: web, pdf
-
-  - title: Release Notes
-    output: web, pdf
-    folderitems:
-
-    - title: 6.0 Release notes
-      url: /mydoc_release_notes_60.html
-      output: web, pdf
-
-    - title: 5.0 Release notes
-      url: /mydoc_release_notes_50.html
-      output: web, pdf
-
-```
-
-Each `folder` or `subfolder` must contain a `title` and `output` property. Each `folderitem` or `subfolderitem` must contain a `title`, `url`, and `output` property.
-
-The two outputs available are `web` and `pdf`. (Even if you aren't publishing PDF, you still need to specify `output: web`).
-
-The YAML syntax depends on exact spacing, so make sure you follow the pattern shown in the sample sidebars. See my [YAML tutorial](mydoc_yaml_tutorial) for more details about how YAML works.
-
-To accommodate the title page and table of contents in PDF outputs, each product sidebar must list these pages before any other:
-
-```yaml
-- title:
-  output: pdf
-  type: frontmatter
-  folderitems:
-  - title:
-    url: /titlepage
-    output: pdf
-    type: frontmatter
-  - title:
-    url: /tocpage
-    output: pdf
-    type: frontmatter
-```
-
-Leave the output as `output: pdf` for these frontmatter pages so that they don't appear in the web output.
-
-For more detail on the sidebar, see [Sidebar navigation][mydoc_sidebar_navigation] and [YAML tutorial][mydoc_yaml_tutorial].
 
 ## Relative links and offline viewing
 
