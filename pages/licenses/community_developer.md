@@ -1,10 +1,10 @@
 ---
-title: Product 2
+title: Community Developer License
 keywords: mydoc
-sidebar: product2_sidebar
+sidebar: licenses_sidebar
 toc: false
-permalink: p2_landing_page.html
-folder: product2
+permalink: community_developer.html
+folder: licenses
 ---
 <div class="row">
         <div class="col-lg-12">

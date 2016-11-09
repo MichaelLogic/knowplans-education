@@ -1,10 +1,10 @@
 ---
-title: Product 1
+title: Impulse Alerts™ License
 keywords: mydoc
-sidebar: product1_sidebar
+sidebar: licenses_sidebar
 toc: false
-permalink: p1_landing_page.html
-folder: product1
+permalink: impulse_alerts.html
+folder: licenses
 ---
 <div class="row">
         <div class="col-lg-12">

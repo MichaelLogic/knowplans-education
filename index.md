@@ -1,28 +1,27 @@
 ---
-title: Getting started with the Documentation Theme for Jekyll
+title: Understanding your world on kNOw Plans™ Impulse Data™
 keywords: sample homepage
 tags: [getting_started]
 sidebar: mydoc_sidebar
 permalink: index.html
-summary: These brief instructions will help you get started quickly with the theme. The other topics in this help provide additional information and detail about working with other aspects of this theme and Jekyll.
+summary: These brief instructions are written for businesses and professionals that have become early adopters of kNOw Plans technology. Consumer-focused information will be published before the public launch of the mobile app to consumers.
 ---
 
-## Build the Theme
+## SignUp for Free
 
-Follow these instructions to build the theme.
+Go to kNOw Plans™ Registration Portal and create your free account.
 
-### 1. Download the theme
+### 1. Create Your Account
+[Become a kNOw Planner](https://www.knowplans.com/signup)
 
-First download or clone the theme from the [Github repo](https://github.com/tomjohnson1492/documentation-theme-jekyll). Most likely you won't be pulling in updates once you start customizing the theme, so downloading the theme (instead of cloning it) probably makes the most sense. In Github, click the **Clone or download** button, and then click **Download ZIP**.
+{% include note.html content="Note it is suggested to use your real first name and last name when you register for your free account.  Your licenses will be activated on this account.  Your account will acculimate Digital Drink Certificates sent by friends and family. Make sure you properly identify yourself just in case of lost or stolen credentials." %}
 
-### 2. Install Jekyll
+### 2. Your "kNOw Planner" Name
 
-If you've never installed or run a Jekyll site locally on your computer, follow these instructions to install Jekyll:
+Immediately after creating your free account, you will be prompted to make up a kNOw Planner Name.  This will be a uniquely identifier that you will give to friends, family and fans to send you Digital Drink Certificates.
 
-* [Install Jekyll on Mac][mydoc_install_jekyll_on_mac]
-* [Install Jekyll on Windows][mydoc_install_jekyll_on_windows]
 
-### 3. Install Bundler
+## 3. Become a Promoter
 
 In case you haven't installed Bundler, install it:
 
