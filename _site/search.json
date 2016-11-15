@@ -130,7 +130,7 @@
 "tags": "formatting",
 "keywords": "popovers, tooltips, proprietary terms, glossaries, definitions",
 "url": "kp_definitions.html",
-"summary": "These definitions contain all the published proprietary terms for kNOw Plans™ technology."
+"summary": "These definitions contain all the published proprietary terms for kNOw Plans™ technology.  Some pre-existing words may have a slightly different meaning in the kNOw Planner Era."
 },
 
 
@@ -328,7 +328,7 @@
 {
 "title": "Franchised Corporated Promoter License",
 "tags": "",
-"keywords": "license",
+"keywords": "license franchised corporate large business",
 "url": "license_franchised.html",
 "summary": ""
 },
@@ -358,7 +358,7 @@
 {
 "title": "Small Business Promoter License",
 "tags": "",
-"keywords": "license",
+"keywords": "license small business promoter",
 "url": "license_small_business.html",
 "summary": ""
 },
