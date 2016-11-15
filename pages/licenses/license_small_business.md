@@ -1,38 +1,34 @@
 ---
 title: Small Business Promoter License
-keywords: license
+keywords: license small business promoter
 sidebar: licenses_sidebar
 toc: false
 permalink: license_small_business.html
 folder: licenses
 ---
 
-## What are collections
-Collections are custom content types different from pages and posts. You might create a collection if you want to treat a specific set of articles in a unique way, such as with a custom layout or listing. For more detail on collections, see [Ben Balter's explanation of collections here](http://ben.balter.com/2016/02/20/jekyll-collections/).
+## Promotional Priviledges
+The Small Business Promoter License is specifically structured for an individual event producer and locations simultaneously. This license carries the largest advertising bandwidth allowed in kNOw Plans Network. It is necessary to set different protocols for small and large businesses to maintain the integrity of the [Trifected Impulse Data Ecosystem][kpEcosystemIntegrity].
 
-## Create a collection
-To create a collection, add the following in your configuration file:
+A Small Business Promoter Licenses is priviledged to ...
 
-```
-collections:
-  tooltips:
-    output: true
-```
+* One year license (annual renewal)
+* Annual License Fee
+* promote any & everyday of the year
+* includes one [Impulse Event][kp_definitions.html#impulseEvent] per day
+* publishing Impulse Events in all the [Twelve Impulse Categories][kp_definitions.html#twelveImpulses] categories
+* access to kNOw Plans Business Module inside of the mobile all and website
+* verbose Impulse Data analytics
+* eligible to add Impulse Alerts™ to an active promoter license
+* charge and collect admission for events
+* redeem [Digital Drink Certs][kp_definitions.html#digitalDrinkCerts]
+* easy withdrawal of funds
+* in-app upgradable to 3 simultaneous events per day (one-time fees apply)
 
-In this example, "tooltips"" is the name of the collection.
+## Renewal
+Small Business Promoter Liceneses require annual renewal to keep updated information on promoters and maintain ecosystem integrity.  Licenses will stay active on their renewal date, but there will be a "License Renewal Confirmation Form" that must be completed before kNOw Plans can be used as normal. 
 
-## Interacting with collections
-
-You can interact with collections by using the `site.collectionname` namespace, where `collectionname` is what you've configured. In this case, if I wanted to loop through all tooltips, I would use `site.tooltips` instead of `site.pages` or `site.posts`.
-
-See [Collections in the Jekyll documentation](http://jekyllrb.com/docs/collections/) for more information.
-
-## How to use collections
-
-I haven't found a huge use for collections in normal documentation. However, I did find a use for collections in generating a tooltip file that would be used for delivering tooltips to a user interface from text files in the documentation. See [Help APIs and UI tooltips][mydoc_help_api] for details.
-
-## Video tutorial on collections
-
-See this [video tutorial on Jekyll.tips](http://jekyll.tips/jekyll-casts/introduction-to-collections/) for more details on collections.
+## Deactivation
+Promoters can can choose to deactivate their license before their required renewal date. You will not be given a pro-rated refund for canceling manually deactivating your account.
 
 {% include links.html %}

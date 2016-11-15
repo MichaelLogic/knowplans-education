@@ -6,33 +6,25 @@ toc: false
 permalink: license_impulse_alerts.html
 folder: licenses
 ---
+Impulse Alerts™ is an add-on to a promoter license. This add-on license gives you the ability to send instantaneous announcements to kNOw Planners who are in [Discover Mode][kp_definitions.html#discoverMode]. Impulse Alerts can contain text and a single graphic, or a single audio recording.  Impulse Alerts can only be created and sent from kNOw Plans mobile.  Only Impulse Alert performance analytics will be available on desktop.
 
-## What are collections
-Collections are custom content types different from pages and posts. You might create a collection if you want to treat a specific set of articles in a unique way, such as with a custom layout or listing. For more detail on collections, see [Ben Balter's explanation of collections here](http://ben.balter.com/2016/02/20/jekyll-collections/).
+Impulse Alerts™ empower promoters to ...
 
-## Create a collection
-To create a collection, add the following in your configuration file:
+* greet all kNOw Planners that walk/drive by your event with a special customized automated alert
+* efficiently deliver time-sensitive specials to patrons already inside your event
+* make a kNOw Planner aware of your vendor booth at a large festival
+* make a kNOw Planner aware of the location of a food truck
+* provide any kind of geo-specific "call-to-action" via audio and/or video
 
-```
-collections:
-  tooltips:
-    output: true
-```
+## Driver & Pedestrian UI Mode
+kNOw Plans has calculated for driver saftey when handling the excitement of Impulse Alerts.  The mobile app will detect the velocity of the kNOw Planner. If velocity detected is under 3.1 mph (average human walking speed) the Pedestrian UI displays a slideshow of received Impulse Alerts with text content, graphics and audio.  If velocity detected is above 3.1 mph the Driver UI shows only the Impulse Alert™ Logo and kNOw Planners automatically hear the audio in the sequence that they were received. Drive UI Mode makes it possible for a kNOw Planner to blindly swipe left or
+right to listen to the Impulse Alert audio without taking eyes off the road ahead.
 
-In this example, "tooltips"" is the name of the collection.
+# Renewal
+Impulse Alert™ Liceneses require annual renewal to keep updated information on promoters and maintain ecosystem integrity.  Licenses will stay active on their renewal date, but there will be a "License Renewal Confirmation Form" that must be completed before kNOw Plans can be used as normal. 
 
-## Interacting with collections
+## Deactivation
+Promoters can can choose to deactivate their license before their required renewal date. You will not be given a pro-rated refund for canceling manually deactivating your account.
 
-You can interact with collections by using the `site.collectionname` namespace, where `collectionname` is what you've configured. In this case, if I wanted to loop through all tooltips, I would use `site.tooltips` instead of `site.pages` or `site.posts`.
-
-See [Collections in the Jekyll documentation](http://jekyllrb.com/docs/collections/) for more information.
-
-## How to use collections
-
-I haven't found a huge use for collections in normal documentation. However, I did find a use for collections in generating a tooltip file that would be used for delivering tooltips to a user interface from text files in the documentation. See [Help APIs and UI tooltips][mydoc_help_api] for details.
-
-## Video tutorial on collections
-
-See this [video tutorial on Jekyll.tips](http://jekyll.tips/jekyll-casts/introduction-to-collections/) for more details on collections.
 
 {% include links.html %}
