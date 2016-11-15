@@ -67,7 +67,7 @@ defaults:
       layout: "page"
       comments: true
       search: true
-      sidebar: home_sidebar
+      sidebar: kp_sidebar
   -
     scope:
       path: ""
@@ -86,15 +86,14 @@ defaults:
       layout: "post"
       comments: true
       search: true
-      sidebar: home_sidebar
+      sidebar: kp_sidebar
 
 # these are defaults used for the frontmatter for these file types
 
 sidebars:
-- home_sidebar
-- mydoc_sidebar
-- product1_sidebar
-- product2_sidebar
+- kp_sidebar
+- bc_sidebar
+- licenses_sidebar
 - other
 
 description: "Intended as a documentation for kNOw Plans™ frequently asked questions, definitions, and other documentation features."

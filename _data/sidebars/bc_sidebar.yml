@@ -27,10 +27,18 @@ entries:
       url: /bc_introduction.html
       output: web
 
-  - title: Auctions
-    output: web, pdf
-    folderitems:
+    - title: Create A Cloud
+      url: /bc_create_a_cloud.html
+      output: web
 
-    - title: Getting Started
-      url: /bc_bidding.html
-      output: web, pdf
+    - title: Share A Cloud
+      url: /bc_share_a_cloud.html
+      output: web
+
+    - title: Auctions
+      url: /bc_auctions.html
+      output: web
+
+    - title: Expiration
+      url: /bc_expiration.html
+      output: web

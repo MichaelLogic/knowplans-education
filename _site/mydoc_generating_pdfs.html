@@ -109,19 +109,23 @@
                     <ul class="dropdown-menu">
                         
                         
-                        <li><a href="creating_a_cloud.html">What is a Birthday Cloud™?</a></li>
+                        <li><a href="bc_introduction.html">What is a Birthday Cloud™?</a></li>
                         
                         
                         
-                        <li><a href="creating_a_cloud.html">Creating A Cloud</a></li>
+                        <li><a href="bc_create_a_cloud.html">Create A Cloud</a></li>
                         
                         
                         
-                        <li><a href="small_business.html">Auctions</a></li>
+                        <li><a href="bc_share_a_cloud.html">Share A Cloud</a></li>
                         
                         
                         
-                        <li><a href="franchised.html">Expiration</a></li>
+                        <li><a href="bc_auctions.html">Auctions</a></li>
+                        
+                        
+                        
+                        <li><a href="bc_expiration.html">Expiration</a></li>
                         
                         
                     </ul>
@@ -132,19 +136,23 @@
                     <ul class="dropdown-menu">
                         
                         
-                        <li><a href="community_developer.html">Community Developer</a></li>
+                        <li><a href="license_overview.html">Promoter Licensing</a></li>
                         
                         
                         
-                        <li><a href="small_business.html">Small Business Promoter</a></li>
+                        <li><a href="license_community_developer.html">Community Developer</a></li>
                         
                         
                         
-                        <li><a href="franchised.html">Franchised Corporate Promoter</a></li>
+                        <li><a href="license_small_business.html">Small Business Promoter</a></li>
                         
                         
                         
-                        <li><a href="impulse_alerts.html">Impulse Alerts™</a></li>
+                        <li><a href="license_franchised.html">Franchised Corporate Promoter</a></li>
+                        
+                        
+                        
+                        <li><a href="license_impulse_alerts.html">Impulse Alerts™</a></li>
                         
                         
                     </ul>
@@ -292,6 +300,13 @@
             
             
             
+            <li><a href="kp_ecosystem_integrity.html">Ecosystem Integrity</a></li>
+            
+            
+            
+            
+            
+            
             <li><a href="kp_venue.html">Venue</a></li>
             
             
@@ -313,14 +328,7 @@
             
             
             
-            <li><a href="kp_ecosystem_integrity.html">Ecosystem Integrity</a></li>
-            
-            
-            
-            
-            
-            
-            <li><a href="kp_ecosystem_integrity.html">Phishing Poles</a></li>
+            <li><a href="kp_phishing_poles.html">Phishing Poles</a></li>
             
             
             
@@ -349,7 +357,7 @@
             
             
             
-            <li><a href="mydoc_icons.html">Residual Commission</a></li>
+            <li><a href="kp_residual_income.html">Residual Commission</a></li>
             
             
             
@@ -368,6 +376,13 @@
             
             
             
+            
+            
+            <li><a href="kp_3percenter_legal.html">3%er Legal</a></li>
+            
+            
+            
+            
         </ul>
         
         
@@ -378,14 +393,14 @@
             
             
             
-            <li><a href="mydoc_commenting_on_files.html">Supporting Existing Orgs</a></li>
+            <li><a href="kp_supporting_orgs.html">Supporting Existing Orgs</a></li>
             
             
             
             
             
             
-            <li><a href="kp_fund_raising.html">Creative Fundraising</a></li>
+            <li><a href="kp_fundraising.html">Creative Fundraising</a></li>
             
             
             
@@ -560,7 +575,7 @@ $('#toc').on('click', 'a', function() {
   <li>tocpage.html</li>
 </ul>
 
-<p>These pages should appear in your sidebar YML file (in this product, mydoc_sidebar.yml):</p>
+<p>These pages should appear in your sidebar YML file (in this product, kp_sidebar.yml):</p>
 
 <div class="language-yaml highlighter-rouge"><pre class="highlight"><code>  <span class="pi">-</span> <span class="s">title</span><span class="pi">:</span>
     <span class="s">output</span><span class="pi">:</span> <span class="s">pdf</span>
@@ -583,7 +598,7 @@ $('#toc').on('click', 'a', function() {
 
 <p>There’s another file (in the root directory of the theme) that is critical to the PDF generation process: prince-list.txt. This file simply iterates through the items in your sidebar and creates a list of links. Prince will consume the list of links from prince-list.txt and create a running PDF that contains all of the pages listed, with appropriate cross references and styling for them all.</p>
 
-<div class="alert alert-info" role="alert"><i class="fa fa-info-circle"></i> <b>Note:</b> If you have any files that you do not want to appear in the PDF, add <code>output: web</code> (rather than <code>output: pdf</code>) in the list of attributes in your sidebar. The prince-list.txt file that loops through the mydoc_sidebar.yml file to grab the URLs of each page that should appear in the PDF will skip over any items that do not list <code>output: pdf</code> in the item attributes. For example, you might not want your tag archives to appear in the PDF, but you probably will want to list them in the online help navigation.</div>
+<div class="alert alert-info" role="alert"><i class="fa fa-info-circle"></i> <b>Note:</b> If you have any files that you do not want to appear in the PDF, add <code>output: web</code> (rather than <code>output: pdf</code>) in the list of attributes in your sidebar. The prince-list.txt file that loops through the kp_sidebar.yml file to grab the URLs of each page that should appear in the PDF will skip over any items that do not list <code>output: pdf</code> in the item attributes. For example, you might not want your tag archives to appear in the PDF, but you probably will want to list them in the online help navigation.</div>
 
 <h2 id="customize-your-headers-and-footers">4. Customize your headers and footers</h2>
 
@@ -747,7 +762,7 @@ $('#toc').on('click', 'a', function() {
 
 <div class="language-js highlighter-rouge"><pre class="highlight"><code><span class="o">&lt;</span><span class="nx">script</span><span class="o">&gt;</span>
     <span class="nx">Prince</span><span class="p">.</span><span class="nx">addScriptFunc</span><span class="p">(</span><span class="s2">"datestamp"</span><span class="p">,</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
-        <span class="k">return</span> <span class="s2">"PDF last generated: November 09, 2016"</span><span class="p">;</span>
+        <span class="k">return</span> <span class="s2">"PDF last generated: November 14, 2016"</span><span class="p">;</span>
     <span class="p">});</span>
 <span class="o">&lt;</span><span class="sr">/script</span><span class="err">&gt;
 </span>
@@ -806,7 +821,7 @@ echo "done";
 <p>In the _includes/custom/sidebarconfigs.html file, there’s a section that looks like this:</p>
 
 <div class="highlighter-rouge"><pre class="highlight"><code><span class="p">{</span><span class="err">%</span><span class="w"> </span><span class="err">if</span><span class="w"> </span><span class="err">site.product</span><span class="w"> </span><span class="err">==</span><span class="w"> </span><span class="nt">"mydoc"</span><span class="w"> </span><span class="err">%}</span><span class="w">
-</span><span class="p">{</span><span class="err">%</span><span class="w"> </span><span class="err">assign</span><span class="w"> </span><span class="err">sidebar_pdf</span><span class="w"> </span><span class="err">=</span><span class="w"> </span><span class="err">site.data.sidebars.mydoc_sidebar.entries</span><span class="w"> </span><span class="err">%</span><span class="p">}</span><span class="w">
+</span><span class="p">{</span><span class="err">%</span><span class="w"> </span><span class="err">assign</span><span class="w"> </span><span class="err">sidebar_pdf</span><span class="w"> </span><span class="err">=</span><span class="w"> </span><span class="err">site.data.sidebars.kp_sidebar.entries</span><span class="w"> </span><span class="err">%</span><span class="p">}</span><span class="w">
 </span><span class="p">{</span><span class="err">%</span><span class="w"> </span><span class="err">endif</span><span class="w"> </span><span class="err">%</span><span class="p">}</span><span class="w">
 
 </span><span class="p">{</span><span class="err">%</span><span class="w"> </span><span class="err">if</span><span class="w"> </span><span class="err">site.product</span><span class="w"> </span><span class="err">==</span><span class="w"> </span><span class="nt">"product1"</span><span class="w"> </span><span class="err">%}</span><span class="w">
@@ -908,7 +923,7 @@ echo "done";
             <div class="row">
                 <div class="col-lg-12 footer">
                &copy;2016 kNOw Plans™ LLC.. All rights reserved. <br />
-<span>Page last updated:</span> July 3, 2016<br/> Site last generated: Nov 9, 2016 <br />
+<span>Page last updated:</span> July 3, 2016<br/> Site last generated: Nov 14, 2016 <br />
 <p><img src="images/kp_bc_logo.jpg" alt="kNOw Plans Logo"/></p>
                 </div>
             </div>

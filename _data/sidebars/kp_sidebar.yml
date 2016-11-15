@@ -68,6 +68,11 @@ entries:
     output: web, pdf
 
     folderitems:
+
+    - title: Ecosystem Integrity
+      url: /kp_ecosystem_integrity.html
+      output: web, pdf
+      
     - title: Venue
       url: /kp_venue.html
       output: web, pdf
@@ -80,12 +85,8 @@ entries:
       url: /kp_consumer.html
       output: web, pdf
 
-    - title: Ecosystem Integrity
-      url: /kp_ecosystem_integrity.html
-      output: web, pdf
-
     - title: Phishing Poles
-      url: /kp_ecosystem_integrity.html
+      url: /kp_phishing_poles.html
       output: web, pdf
 
   - title: 3%er Partnership
@@ -101,7 +102,7 @@ entries:
       output: web, pdf
 
     - title: Residual Commission
-      url: /mydoc_icons.html
+      url: /kp_residual_income.html
       output: web, pdf
 
     - title: Sending Invitations
@@ -112,16 +113,20 @@ entries:
       url: /kp_sales_tips.html
       output: web, pdf
 
+    - title: 3%er Legal
+      url: /kp_3percenter_legal.html
+      output: web, pdf
+
   - title: Community Development
     output: web, pdf
 
     folderitems:
     - title: Supporting Existing Orgs
-      url: /mydoc_commenting_on_files.html
+      url: /kp_supporting_orgs.html
       output: web, pdf
 
     - title: Creative Fundraising
-      url: /kp_fund_raising.html
+      url: /kp_fundraising.html
       output: web, pdf
 
   - title: Digital Drink Certificates™

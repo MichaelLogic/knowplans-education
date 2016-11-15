@@ -5,7 +5,7 @@ tags: [publishing, single_sourcing, content_types]
 keywords: PDF, prince, prince XML, ant, xsl fo
 last_updated: July 3, 2016
 summary: "You can generate a PDF from your Jekyll project. You do this by creating a web version of your project that is printer friendly. You then use utility called Prince to iterate through the pages and create a PDF from them. It works quite well and gives you complete control to customize the PDF output through CSS, including page directives and dynamic tags from Prince."
-sidebar: mydoc_sidebar
+sidebar: kp_sidebar
 folder: mydoc
 ---
 
@@ -71,7 +71,7 @@ There are two template pages in the root directory that are critical to the PDF:
 * titlepage.html
 * tocpage.html
 
-These pages should appear in your sidebar YML file (in this product, mydoc_sidebar.yml):
+These pages should appear in your sidebar YML file (in this product, kp_sidebar.yml):
 
 ```yaml
   - title:
@@ -94,7 +94,7 @@ The code in the tocpage.html is mostly identical to that of the sidebar.html pag
 
 There's another file (in the root directory of the theme) that is critical to the PDF generation process: prince-list.txt. This file simply iterates through the items in your sidebar and creates a list of links. Prince will consume the list of links from prince-list.txt and create a running PDF that contains all of the pages listed, with appropriate cross references and styling for them all.
 
-{% include note.html content="If you have any files that you do not want to appear in the PDF, add <code>output: web</code> (rather than <code>output: pdf</code>) in the list of attributes in your sidebar. The prince-list.txt file that loops through the mydoc_sidebar.yml file to grab the URLs of each page that should appear in the PDF will skip over any items that do not list <code>output: pdf</code> in the item attributes. For example, you might not want your tag archives to appear in the PDF, but you probably will want to list them in the online help navigation." %}
+{% include note.html content="If you have any files that you do not want to appear in the PDF, add <code>output: web</code> (rather than <code>output: pdf</code>) in the list of attributes in your sidebar. The prince-list.txt file that loops through the kp_sidebar.yml file to grab the URLs of each page that should appear in the PDF will skip over any items that do not list <code>output: pdf</code> in the item attributes. For example, you might not want your tag archives to appear in the PDF, but you probably will want to list them in the online help navigation." %}
 
 ## 4. Customize your headers and footers
 
@@ -322,7 +322,7 @@ In the \_includes/custom/sidebarconfigs.html file, there's a section that looks 
 
 ```
 {% raw %}{% if site.product == "mydoc" %}
-{% assign sidebar_pdf = site.data.sidebars.mydoc_sidebar.entries %}
+{% assign sidebar_pdf = site.data.sidebars.kp_sidebar.entries %}
 {% endif %}
 
 {% if site.product == "product1" %}

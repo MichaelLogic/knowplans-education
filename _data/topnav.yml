@@ -11,23 +11,26 @@ topnav_dropdowns:
 - title: Topnav dropdowns
   folders:
     - title: Birthday Clouds™
-      url: /bc_introduction
       folderitems:
         - title: What is a Birthday Cloud™?
-          url: /creating_a_cloud.html
-        - title: Creating A Cloud
-          url: /creating_a_cloud.html
+          url: /bc_introduction.html
+        - title: Create A Cloud
+          url: /bc_create_a_cloud.html
+        - title: Share A Cloud
+          url: /bc_share_a_cloud.html
         - title: Auctions
-          url: /small_business.html
+          url: /bc_auctions.html
         - title: Expiration
-          url: /franchised.html
+          url: /bc_expiration.html
     - title: Licences
       folderitems:
+        - title: Promoter Licensing
+          url: /license_overview.html
         - title: Community Developer
-          url: /community_developer.html
+          url: /license_community_developer.html
         - title: Small Business Promoter
-          url: /small_business.html
+          url: /license_small_business.html
         - title: Franchised Corporate Promoter
-          url: /franchised.html
+          url: /license_franchised.html
         - title: Impulse Alerts™
-          url: /impulse_alerts.html
+          url: /license_impulse_alerts.html

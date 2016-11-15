@@ -26,33 +26,219 @@
   
   
   <url>
+    <loc>http://localhost:4005/bc_auctions.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4005/bc_create_a_cloud.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4005/bc_expiration.html</loc>
+  </url>
+  
+  
+  
+  <url>
     <loc>http://localhost:4005/bc_introduction.html</loc>
   </url>
   
   
   
   <url>
-    <loc>http://localhost:4005/community_developer.html</loc>
+    <loc>http://localhost:4005/bc_share_a_cloud.html</loc>
   </url>
   
   
-  
-  
-  
-  <url>
-    <loc>http://localhost:4005/franchised.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>http://localhost:4005/impulse_alerts.html</loc>
-  </url>
   
   
   
   <url>
     <loc>http://localhost:4005/index.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4005/mydoc_adding_tooltips.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4005/mydoc_adding_tooltips.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4005/mydoc_adding_tooltips.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4005/mydoc_adding_tooltips.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4005/mydoc_adding_tooltips.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4005/mydoc_adding_tooltips.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4005/kp_definitions.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4005/mydoc_adding_tooltips.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4005/mydoc_adding_tooltips.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4005/mydoc_adding_tooltips.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4005/mydoc_adding_tooltips.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4005/mydoc_adding_tooltips.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4005/mydoc_adding_tooltips.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4005/mydoc_adding_tooltips.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4005/mydoc_adding_tooltips.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4005/mydoc_adding_tooltips.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4005/mydoc_adding_tooltips.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4005/mydoc_adding_tooltips.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4005/mydoc_adding_tooltips.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4005/mydoc_adding_tooltips.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4005/mydoc_adding_tooltips.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4005/mydoc_adding_tooltips.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4005/mydoc_adding_tooltips.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4005/mydoc_adding_tooltips.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4005/mydoc_adding_tooltips.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4005/license_community_developer.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4005/license_franchised.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4005/license_impulse_alerts.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4005/license_overview.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4005/license_small_business.html</loc>
   </url>
   
   
@@ -238,13 +424,13 @@
   
   
   <url>
-    <loc>http://localhost:4005/mydoc_scroll.html</loc>
+    <loc>http://localhost:4005/js/mydoc_scroll.html</loc>
   </url>
   
   
   
   <url>
-    <loc>http://localhost:4005/js/mydoc_scroll.html</loc>
+    <loc>http://localhost:4005/mydoc_scroll.html</loc>
   </url>
   
   
@@ -292,7 +478,7 @@
   
   
   <url>
-    <loc>http://localhost:4005/mydoc_sidebar_navigation.html</loc>
+    <loc>http://localhost:4005/kp_sidebar_navigation.html</loc>
   </url>
   
   
@@ -384,12 +570,6 @@
   
   
   
-  
-  
-  
-  <url>
-    <loc>http://localhost:4005/small_business.html</loc>
-  </url>
   
   
   

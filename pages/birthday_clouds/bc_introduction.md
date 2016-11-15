@@ -1,5 +1,5 @@
 ---
-title: Introduction
+title: Birthday Clouds™
 sidebar: bc_sidebar
 permalink: bc_introduction.html
 folder: birthday_clouds
@@ -7,24 +7,30 @@ folder: birthday_clouds
 
 ## Overview
 
-This site provides documentation, training, and other notes for the Jekyll Documentation theme. There's a lot of information about how to do a variety of things here, and it's not all unique to this theme. But by and large, understanding how to do things in Jekyll depends on how your theme is coded. As a result, these additional details are provided.
+Birthday Clouds™ are virtual crowd funding accounts specifically designed to allow kNOw Plans to help kNOw Planners have a great birthday.  "EVERYONE deserves a great birthday!"
 
-The instructions here are geared towards technical writers working on documentation. You may have a team of one or more technical writers working on documentation for multiple projects. You can use this same theme to author all of your documentation for each of your products. The theme is built to accommodate documentation for multiple products on the same site.
+Around the same time friends and family get reminders from their social media and smart phone calendars that a loved one's birthday is coming or here, kNOw Plans will will be exposed for a time-limited automated birthday promotion.  
 
-## Survey of features
 
-Some of the more prominent features of this theme include the following:
+{% include image.html file="birthday_clouds/bc_overview.jpg" alt="Birthday Cloud" caption="Birthday Cloud Overview" %}
 
-* Bootstrap framework
-* [Navgoco multi-level sidebar](http://www.komposta.net/article/navgoco) for table of contents
-* Ability to specify different sidebars for different products
-* Top navigation bar with drop-down menus
-* Notes, tips, and warning information notes
-* Tags for alternative navigation
-* Advanced landing page layouts from the [Modern Business theme](http://startbootstrap.com/template-overviews/modern-business/).
+[BirthdayClouds.com](http://www.BirthdayClouds.com) is a kNOw Plans™ product that is only available to kNOw Planners.
 
-## Getting started
+## Not Social Media
+Birthday Clouds™ are funding algorithms that leverage the resources in kNOw Plans Network with your connected social media accounts.  BirthdayClouds.com is not social media.  kNOw Plans and all of its add-ons, plug-ins and modules are engineered to enhance the human's capabilities of making last minute decisions.
 
-To get started, see [Getting Started][index].
+## Beta Clouds
+
+kNOw Plans Beta Launch will make Birthday Cloud functions available to all kNOw Planners.  However, birthdays that around the launch of the application may experience a lower than normal amount of [bids][bc_auctions] on your cloud due to the service just becoming available to Official kNOw Plans Venues.
+
+* Create your free crowd one time.  Celebrate every year
+* Automated announcement of the beginning and end of your cloud funding period
+* Shrinkwrapped in consumer marketing psychology to benefit the birthday person
+* Turns the swarm of social media birthday posts into probable DDC gifts
+* kNOw Planners recieve bids from promoters via Birthday Cloud Auctions to plan their birthday celebration
+
+## Creating a Cloud
+
+To create a cloud, see [Creating a Birthday Cloud][bc_create_a_cloud].
 
 {% include links.html %}

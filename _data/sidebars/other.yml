@@ -16,3 +16,6 @@ entries:
 
     - title: Some link bookmark
       url: /mydoc_pages.html#someIdTag
+
+    - title: Impulse Event
+      url: /kp_definitions.html#impulseEvent

@@ -4,7 +4,37 @@
 
 
 {
-"title": "Introduction",
+"title": "Auctions",
+"tags": "",
+"keywords": "",
+"url": "bc_auctions.html",
+"summary": ""
+},
+
+
+
+{
+"title": "Create a Birthday Cloud",
+"tags": "",
+"keywords": "",
+"url": "bc_create_a_cloud.html",
+"summary": ""
+},
+
+
+
+{
+"title": "Expiration",
+"tags": "",
+"keywords": "",
+"url": "bc_expiration.html",
+"summary": ""
+},
+
+
+
+{
+"title": "Birthday Clouds™",
 "tags": "",
 "keywords": "",
 "url": "bc_introduction.html",
@@ -14,10 +44,10 @@
 
 
 {
-"title": "Community Developer License",
+"title": "Share a Cloud",
 "tags": "",
-"keywords": "mydoc",
-"url": "community_developer.html",
+"keywords": "",
+"url": "bc_share_a_cloud.html",
 "summary": ""
 },
 
@@ -26,10 +56,280 @@
 
 
 {
+"title": "Understanding your world on kNOw Plans™ Impulse Data™",
+"tags": "getting_started",
+"keywords": "homepage",
+"url": "index.html",
+"summary": "These brief instructions are written for businesses and professionals that have become early adopters of kNOw Plans technology. Consumer-focused information will be published before the public launch of the mobile app to consumers."
+},
+
+
+
+{
+"title": "Tooltips",
+"tags": "formatting",
+"keywords": "popovers, tooltips, user interface text, glossaries, definitions",
+"url": "mydoc_adding_tooltips.html",
+"summary": "You can add tooltips to any word, such as an acronym or specialized term. Tooltips work well for glossary definitions, because you don't have to keep repeating the definition, nor do you assume the reader already knows the word's meaning."
+},
+
+
+
+{
+"title": "Tooltips",
+"tags": "formatting",
+"keywords": "popovers, tooltips, user interface text, glossaries, definitions",
+"url": "mydoc_adding_tooltips.html",
+"summary": "You can add tooltips to any word, such as an acronym or specialized term. Tooltips work well for glossary definitions, because you don't have to keep repeating the definition, nor do you assume the reader already knows the word's meaning."
+},
+
+
+
+{
+"title": "Tooltips",
+"tags": "formatting",
+"keywords": "popovers, tooltips, user interface text, glossaries, definitions",
+"url": "mydoc_adding_tooltips.html",
+"summary": "You can add tooltips to any word, such as an acronym or specialized term. Tooltips work well for glossary definitions, because you don't have to keep repeating the definition, nor do you assume the reader already knows the word's meaning."
+},
+
+
+
+{
+"title": "Tooltips",
+"tags": "formatting",
+"keywords": "popovers, tooltips, user interface text, glossaries, definitions",
+"url": "mydoc_adding_tooltips.html",
+"summary": "You can add tooltips to any word, such as an acronym or specialized term. Tooltips work well for glossary definitions, because you don't have to keep repeating the definition, nor do you assume the reader already knows the word's meaning."
+},
+
+
+
+{
+"title": "Tooltips",
+"tags": "formatting",
+"keywords": "popovers, tooltips, user interface text, glossaries, definitions",
+"url": "mydoc_adding_tooltips.html",
+"summary": "You can add tooltips to any word, such as an acronym or specialized term. Tooltips work well for glossary definitions, because you don't have to keep repeating the definition, nor do you assume the reader already knows the word's meaning."
+},
+
+
+
+{
+"title": "Tooltips",
+"tags": "formatting",
+"keywords": "popovers, tooltips, user interface text, glossaries, definitions",
+"url": "mydoc_adding_tooltips.html",
+"summary": "You can add tooltips to any word, such as an acronym or specialized term. Tooltips work well for glossary definitions, because you don't have to keep repeating the definition, nor do you assume the reader already knows the word's meaning."
+},
+
+
+
+{
+"title": "Definitions",
+"tags": "formatting",
+"keywords": "popovers, tooltips, proprietary terms, glossaries, definitions",
+"url": "kp_definitions.html",
+"summary": "These definitions contain all the published proprietary terms for kNOw Plans™ technology."
+},
+
+
+
+{
+"title": "Tooltips",
+"tags": "formatting",
+"keywords": "popovers, tooltips, user interface text, glossaries, definitions",
+"url": "mydoc_adding_tooltips.html",
+"summary": "You can add tooltips to any word, such as an acronym or specialized term. Tooltips work well for glossary definitions, because you don't have to keep repeating the definition, nor do you assume the reader already knows the word's meaning."
+},
+
+
+
+{
+"title": "Tooltips",
+"tags": "formatting",
+"keywords": "popovers, tooltips, user interface text, glossaries, definitions",
+"url": "mydoc_adding_tooltips.html",
+"summary": "You can add tooltips to any word, such as an acronym or specialized term. Tooltips work well for glossary definitions, because you don't have to keep repeating the definition, nor do you assume the reader already knows the word's meaning."
+},
+
+
+
+{
+"title": "Tooltips",
+"tags": "formatting",
+"keywords": "popovers, tooltips, user interface text, glossaries, definitions",
+"url": "mydoc_adding_tooltips.html",
+"summary": "You can add tooltips to any word, such as an acronym or specialized term. Tooltips work well for glossary definitions, because you don't have to keep repeating the definition, nor do you assume the reader already knows the word's meaning."
+},
+
+
+
+{
+"title": "Tooltips",
+"tags": "formatting",
+"keywords": "popovers, tooltips, user interface text, glossaries, definitions",
+"url": "mydoc_adding_tooltips.html",
+"summary": "You can add tooltips to any word, such as an acronym or specialized term. Tooltips work well for glossary definitions, because you don't have to keep repeating the definition, nor do you assume the reader already knows the word's meaning."
+},
+
+
+
+{
+"title": "Tooltips",
+"tags": "formatting",
+"keywords": "popovers, tooltips, user interface text, glossaries, definitions",
+"url": "mydoc_adding_tooltips.html",
+"summary": "You can add tooltips to any word, such as an acronym or specialized term. Tooltips work well for glossary definitions, because you don't have to keep repeating the definition, nor do you assume the reader already knows the word's meaning."
+},
+
+
+
+{
+"title": "Tooltips",
+"tags": "formatting",
+"keywords": "popovers, tooltips, user interface text, glossaries, definitions",
+"url": "mydoc_adding_tooltips.html",
+"summary": "You can add tooltips to any word, such as an acronym or specialized term. Tooltips work well for glossary definitions, because you don't have to keep repeating the definition, nor do you assume the reader already knows the word's meaning."
+},
+
+
+
+{
+"title": "Tooltips",
+"tags": "formatting",
+"keywords": "popovers, tooltips, user interface text, glossaries, definitions",
+"url": "mydoc_adding_tooltips.html",
+"summary": "You can add tooltips to any word, such as an acronym or specialized term. Tooltips work well for glossary definitions, because you don't have to keep repeating the definition, nor do you assume the reader already knows the word's meaning."
+},
+
+
+
+{
+"title": "Tooltips",
+"tags": "formatting",
+"keywords": "popovers, tooltips, user interface text, glossaries, definitions",
+"url": "mydoc_adding_tooltips.html",
+"summary": "You can add tooltips to any word, such as an acronym or specialized term. Tooltips work well for glossary definitions, because you don't have to keep repeating the definition, nor do you assume the reader already knows the word's meaning."
+},
+
+
+
+{
+"title": "Tooltips",
+"tags": "formatting",
+"keywords": "popovers, tooltips, user interface text, glossaries, definitions",
+"url": "mydoc_adding_tooltips.html",
+"summary": "You can add tooltips to any word, such as an acronym or specialized term. Tooltips work well for glossary definitions, because you don't have to keep repeating the definition, nor do you assume the reader already knows the word's meaning."
+},
+
+
+
+{
+"title": "Tooltips",
+"tags": "formatting",
+"keywords": "popovers, tooltips, user interface text, glossaries, definitions",
+"url": "mydoc_adding_tooltips.html",
+"summary": "You can add tooltips to any word, such as an acronym or specialized term. Tooltips work well for glossary definitions, because you don't have to keep repeating the definition, nor do you assume the reader already knows the word's meaning."
+},
+
+
+
+{
+"title": "Tooltips",
+"tags": "formatting",
+"keywords": "popovers, tooltips, user interface text, glossaries, definitions",
+"url": "mydoc_adding_tooltips.html",
+"summary": "You can add tooltips to any word, such as an acronym or specialized term. Tooltips work well for glossary definitions, because you don't have to keep repeating the definition, nor do you assume the reader already knows the word's meaning."
+},
+
+
+
+{
+"title": "Tooltips",
+"tags": "formatting",
+"keywords": "popovers, tooltips, user interface text, glossaries, definitions",
+"url": "mydoc_adding_tooltips.html",
+"summary": "You can add tooltips to any word, such as an acronym or specialized term. Tooltips work well for glossary definitions, because you don't have to keep repeating the definition, nor do you assume the reader already knows the word's meaning."
+},
+
+
+
+{
+"title": "Tooltips",
+"tags": "formatting",
+"keywords": "popovers, tooltips, user interface text, glossaries, definitions",
+"url": "mydoc_adding_tooltips.html",
+"summary": "You can add tooltips to any word, such as an acronym or specialized term. Tooltips work well for glossary definitions, because you don't have to keep repeating the definition, nor do you assume the reader already knows the word's meaning."
+},
+
+
+
+{
+"title": "Tooltips",
+"tags": "formatting",
+"keywords": "popovers, tooltips, user interface text, glossaries, definitions",
+"url": "mydoc_adding_tooltips.html",
+"summary": "You can add tooltips to any word, such as an acronym or specialized term. Tooltips work well for glossary definitions, because you don't have to keep repeating the definition, nor do you assume the reader already knows the word's meaning."
+},
+
+
+
+{
+"title": "Tooltips",
+"tags": "formatting",
+"keywords": "popovers, tooltips, user interface text, glossaries, definitions",
+"url": "mydoc_adding_tooltips.html",
+"summary": "You can add tooltips to any word, such as an acronym or specialized term. Tooltips work well for glossary definitions, because you don't have to keep repeating the definition, nor do you assume the reader already knows the word's meaning."
+},
+
+
+
+{
+"title": "Tooltips",
+"tags": "formatting",
+"keywords": "popovers, tooltips, user interface text, glossaries, definitions",
+"url": "mydoc_adding_tooltips.html",
+"summary": "You can add tooltips to any word, such as an acronym or specialized term. Tooltips work well for glossary definitions, because you don't have to keep repeating the definition, nor do you assume the reader already knows the word's meaning."
+},
+
+
+
+{
+"title": "Tooltips",
+"tags": "formatting",
+"keywords": "popovers, tooltips, user interface text, glossaries, definitions",
+"url": "mydoc_adding_tooltips.html",
+"summary": "You can add tooltips to any word, such as an acronym or specialized term. Tooltips work well for glossary definitions, because you don't have to keep repeating the definition, nor do you assume the reader already knows the word's meaning."
+},
+
+
+
+{
+"title": "Tooltips",
+"tags": "formatting",
+"keywords": "popovers, tooltips, user interface text, glossaries, definitions",
+"url": "mydoc_adding_tooltips.html",
+"summary": "You can add tooltips to any word, such as an acronym or specialized term. Tooltips work well for glossary definitions, because you don't have to keep repeating the definition, nor do you assume the reader already knows the word's meaning."
+},
+
+
+
+{
+"title": "Community Developer License",
+"tags": "",
+"keywords": "license",
+"url": "license_community_developer.html",
+"summary": ""
+},
+
+
+
+{
 "title": "Franchised Corporated Promoter License",
 "tags": "",
-"keywords": "mydoc",
-"url": "franchised.html",
+"keywords": "license",
+"url": "license_franchised.html",
 "summary": ""
 },
 
@@ -38,19 +338,29 @@
 {
 "title": "Impulse Alerts™ License",
 "tags": "",
-"keywords": "mydoc",
-"url": "impulse_alerts.html",
+"keywords": "license",
+"url": "license_impulse_alerts.html",
 "summary": ""
 },
 
 
 
 {
-"title": "Understanding your world on kNOw Plans™ Impulse Data™",
-"tags": "getting_started",
-"keywords": "sample homepage",
-"url": "index.html",
-"summary": "These brief instructions are written for businesses and professionals that have become early adopters of kNOw Plans technology. Consumer-focused information will be published before the public launch of the mobile app to consumers."
+"title": "kNOw Plans Promoter Licenses",
+"tags": "",
+"keywords": "license",
+"url": "license_overview.html",
+"summary": ""
+},
+
+
+
+{
+"title": "Small Business Promoter License",
+"tags": "",
+"keywords": "license",
+"url": "license_small_business.html",
+"summary": ""
 },
 
 
@@ -359,7 +669,7 @@
 "title": "Scroll layout",
 "tags": "special_layouts",
 "keywords": "json, scrolling, scrollto, jquery plugin",
-"url": "mydoc_scroll.html",
+"url": "jsmydoc_scroll.html",
 "summary": "This page demonstrates how you the integration of a script called ScrollTo, which is used here to link definitions of a JSON code sample to a list of definitions for that particular term. The scenario here is that the JSON blocks are really long, with extensive nesting and subnesting, which makes it difficult for tables below the JSON to adequately explain the term in a usable way."
 },
 
@@ -369,7 +679,7 @@
 "title": "Scroll layout",
 "tags": "special_layouts",
 "keywords": "json, scrolling, scrollto, jquery plugin",
-"url": "jsmydoc_scroll.html",
+"url": "mydoc_scroll.html",
 "summary": "This page demonstrates how you the integration of a script called ScrollTo, which is used here to link definitions of a JSON code sample to a list of definitions for that particular term. The scenario here is that the JSON blocks are really long, with extensive nesting and subnesting, which makes it difficult for tables below the JSON to adequately explain the term in a usable way."
 },
 
@@ -449,7 +759,7 @@
 "title": "Sidebar Navigation",
 "tags": "getting_started",
 "keywords": "sidebar, accordion, yaml, iteration, for loop, navigation, attributes, conditional filtering",
-"url": "mydoc_sidebar_navigation.html",
+"url": "kp_sidebar_navigation.html",
 "summary": "The sidebar navigation uses a jQuery component called Navgoco. The sidebar is a somewhat complex part of the theme that remembers your current page, highlights the active item, stays in a fixed position on the page, and more. This page explains a bit about how the sidebar was put together."
 },
 
@@ -598,16 +908,6 @@
 
 
 
-
-
-
-{
-"title": "Small Business Promoter License",
-"tags": "",
-"keywords": "mydoc",
-"url": "small_business.html",
-"summary": ""
-},
 
 
 
