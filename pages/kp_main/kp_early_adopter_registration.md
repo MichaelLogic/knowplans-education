@@ -1,40 +1,26 @@
 ---
-title: Tooltips
-tags: [formatting]
-keywords: popovers, tooltips, user interface text, glossaries, definitions
-last_updated: July 3, 2016
-summary: "You can add tooltips to any word, such as an acronym or specialized term. Tooltips work well for glossary definitions, because you don't have to keep repeating the definition, nor do you assume the reader already knows the word's meaning."
+title: Early Adopter Business Registration
+tags: [Early Adopter]
+keywords: registration, early adopter, businesses, benefits, 3%er
+last_updated: November 16, 2016
+summary: "kNOw Plans encourages education and understanding during Early Adopter Business before launching kNOW Plan Beta to consumers."
 sidebar: kp_sidebar
-permalink: mydoc_adding_tooltips.html
-folder: mydoc
+permalink: kp_early_adopter_registration.html
+folder: kp_main
 ---
 
-## What are collections
-Collections are custom content types different from pages and posts. You might create a collection if you want to treat a specific set of articles in a unique way, such as with a custom layout or listing. For more detail on collections, see [Ben Balter's explanation of collections here](http://ben.balter.com/2016/02/20/jekyll-collections/).
+## Businesses Before Consumers
+When launching an application like kNOw Plans, we need to take care to release to consumers only after we have given businesses time to register and educate themselves on the many benefits and protocol. Early Adopter Business Registration will ensure that individual promoters, marketing directors, and venue managers accomplish the following before kNOw Plans Beta launch;
 
-## Create a collection
-To create a collection, add the following in your configuration file:
+* SignUp for a basic kNOw Planner experience
+* Learn about the business application of this new impulse utility
+* Purchase a promoter license at a one-time discounted rate (optional)
+* Register venue(s) (optional)
+* Qualify for kNOw Plans 3%er Partnership
 
-```
-collections:
-  tooltips:
-    output: true
-```
+## Time Period
+Please make note EARLY ADOPTER BUSINESS REGISTRATION WILL ONLY BE A 90 DAY PROMOTIONAL PERIOD.
+THIS PROGRAM WILL NOT BE AVAILABLE WHEN THE MOBILE APP IS RELEASED TO CONSUMERS.
 
-In this example, "tooltips"" is the name of the collection.
-
-## Interacting with collections
-
-You can interact with collections by using the `site.collectionname` namespace, where `collectionname` is what you've configured. In this case, if I wanted to loop through all tooltips, I would use `site.tooltips` instead of `site.pages` or `site.posts`.
-
-See [Collections in the Jekyll documentation](http://jekyllrb.com/docs/collections/) for more information.
-
-## How to use collections
-
-I haven't found a huge use for collections in normal documentation. However, I did find a use for collections in generating a tooltip file that would be used for delivering tooltips to a user interface from text files in the documentation. See [Help APIs and UI tooltips][mydoc_help_api] for details.
-
-## Video tutorial on collections
-
-See this [video tutorial on Jekyll.tips](http://jekyll.tips/jekyll-casts/introduction-to-collections/) for more details on collections.
 
 {% include links.html %}

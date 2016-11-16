@@ -1,40 +1,35 @@
 ---
-title: Tooltips
+title: Digital Drink Certificates™
 tags: [formatting]
-keywords: popovers, tooltips, user interface text, glossaries, definitions
-last_updated: July 3, 2016
+keywords: food, beverage, wine, spirits, currency, drinks, venues, wet kisses, buddy beer
+last_updated: Nov 15, 2016
 summary: "You can add tooltips to any word, such as an acronym or specialized term. Tooltips work well for glossary definitions, because you don't have to keep repeating the definition, nor do you assume the reader already knows the word's meaning."
 sidebar: kp_sidebar
-permalink: mydoc_adding_tooltips.html
-folder: mydoc
+permalink: kp_ddc_intro.html
+folder: kp_main
 ---
 
-## What are collections
-Collections are custom content types different from pages and posts. You might create a collection if you want to treat a specific set of articles in a unique way, such as with a custom layout or listing. For more detail on collections, see [Ben Balter's explanation of collections here](http://ben.balter.com/2016/02/20/jekyll-collections/).
+## Gifting Food & Beverage Currency
+Techs and marketing experts at kNOw Plans notice the ability for kNOw Plans to be a complete self-sustaining business ecosystem (see [Trifected Impulse Data Ecosystem][kp_definitions.html#ecosystemIntegrity]). In result, kNOw Plans introduces an exclusive digital currency to the network for the purpose of impulsive gifting of food and beverage.  Digital Drink Certificates encourage spending at official kNOw Plans venues.
 
-## Create a collection
-To create a collection, add the following in your configuration file:
+For maintaining the integrity of “impulse” inside our system, we do not allow kNOw Planners to redeem beverage certificates at non-registered venues. A kNOw PLANS venue's server ID and the venue’s ID must be associated with every transaction.
 
-```
-collections:
-  tooltips:
-    output: true
-```
+## Composition of the DDC
+Each DDC is encrypted with an unseen 512 Bit identity key and transaction key.  Our virtual currency is backed by a redundant cloud network with 99% uptime.  
+One Digital Drink Certificate is equal in value to One American Dollar in USA.  kNOw Plans also contains a Currency Conversion Rate algorithm that will ensure realtime fair conversions of DDC amounts during international gifting and purchasing.
 
-In this example, "tooltips"" is the name of the collection.
 
-## Interacting with collections
+## What is a Drink Suggestion? {#drinkSuggestion}
 
-You can interact with collections by using the `site.collectionname` namespace, where `collectionname` is what you've configured. In this case, if I wanted to loop through all tooltips, I would use `site.tooltips` instead of `site.pages` or `site.posts`.
+A “drink suggestion” is the list of individual beer, cocktails, and shots shown after the sending amount is selected to another kNOw Planner. The sender can suggests as many drinks as they like. This drink suggestion will be sent to the recipient kNOw Planner along with the actual DDCs. Drink suggestion content may vary due to our parntering food and beverage providers.
 
-See [Collections in the Jekyll documentation](http://jekyllrb.com/docs/collections/) for more information.
 
-## How to use collections
+## What’s the difference between Wet Kisses© and a Buddy Beers©? {#wetKissesBuddyBeer}
 
-I haven't found a huge use for collections in normal documentation. However, I did find a use for collections in generating a tooltip file that would be used for delivering tooltips to a user interface from text files in the documentation. See [Help APIs and UI tooltips][mydoc_help_api] for details.
+Wet Kisses and Buddy Beer are both marketing names for Digital Drink Certificates.  Wet Kisses and Buddy Beers are identical in every way except for the following:
 
-## Video tutorial on collections
+* Marketing Name - MLA Cognitive Theory for Beverage Certificates states that the “impulse” factor increases exponentially when branded with both romantic and non-romantic nomenclature.
 
-See this [video tutorial on Jekyll.tips](http://jekyll.tips/jekyll-casts/introduction-to-collections/) for more details on collections.
+* Drink Suggestion Choices - During the action of sending a Beverage Certificate to a friend, the sender is asked to suggest a branded drink to buy. The suggestions for Wet Kisses are more feminine, passionate & romantic cocktails. The suggestions for Buddy Beers are beers, hard ciders and game-time shots.
 
 {% include links.html %}

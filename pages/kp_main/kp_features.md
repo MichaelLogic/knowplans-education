@@ -1,27 +1,35 @@
 ---
-title: Tooltips
-tags: [formatting]
-keywords: popovers, tooltips, user interface text, glossaries, definitions
-last_updated: July 3, 2016
-summary: "You can add tooltips to any word, such as an acronym or specialized term. Tooltips work well for glossary definitions, because you don't have to keep repeating the definition, nor do you assume the reader already knows the word's meaning."
+title: kNOw Plans App Features
+tags: [features]
+keywords: features, functions, capabilities, mobile
+last_updated: November 16, 2016
+summary: "A basic list of kNOw Plans Functions."
 sidebar: kp_sidebar
-permalink: mydoc_adding_tooltips.html
-folder: mydoc
+permalink: kp_features.html
+folder: kp_main
 ---
 
-## Creating tooltips
-Because this theme is built on Bootstrap, you can simply use a specific attribute on an element to insert a tooltip.
+## What is an impulse utility?
+kNOw Plans carries app features that allow for the following:
 
-Suppose you have a glossary.yml file inside your \_data folder. You could pull in that glossary definition like this:
+* Verbose geo-location event search for events taking place within the next 24 hours.
 
-{% raw %}
-```html
-<a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.jekyll_platform}}">Jekyll</a> is my favorite tool for building websites.</a>
-```
-{% endraw %}
+* [Twelve Impulses][kp_defintions.html#twelveImpulses] categorized for quick subjection of your current desire.
 
-This renders to the following:
+* Map View and List View for [Impulse Stream][kp_defintions.html#impulseStream] of Events
 
-<a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.jekyll_platform}}">Jekyll</a> is my favorite tool for building websites.
+* [Birthday Clouds™][bc_introduction] for tastefully crowd funding your birthday with friends and family.
+
+* Sharing to your preferred social media for events and/or venue pages.
+
+* Toggle Discovery range from a minimum of 500 feet to a max of 300 miles
+
+* RSVP and Pay for admission to some events
+
+* [Impulse Alerts™][kp_definitions.html#impulseAlerts] will revolutionize how physical venues reach out to great local customers
+
+* Promoter licenses provide advertising priviledges
+
+* Verbose event, Impulse Alerts and [Impulse Stream][kp_definitions.html#impulseStream] analytics
 
 {% include links.html %}

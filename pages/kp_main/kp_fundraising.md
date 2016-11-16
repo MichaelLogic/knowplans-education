@@ -1,27 +1,22 @@
 ---
-title: Tooltips
+title: Creative Fundraising
 tags: [formatting]
-keywords: popovers, tooltips, user interface text, glossaries, definitions
-last_updated: July 3, 2016
-summary: "You can add tooltips to any word, such as an acronym or specialized term. Tooltips work well for glossary definitions, because you don't have to keep repeating the definition, nor do you assume the reader already knows the word's meaning."
+keywords: fundraiser, charity, donations, non-profit, Community Developer
+last_updated: November 16, 2016
+summary: "Think outside the box with a kNOw Plans Community Developer Promoter License and capitalize on the most efficient marketing tool to be introduce to you since the printed flyer."
 sidebar: kp_sidebar
-permalink: mydoc_adding_tooltips.html
-folder: mydoc
+permalink: kp_fundraising.html
+folder: kp_main
 ---
 
-## Creating tooltips
-Because this theme is built on Bootstrap, you can simply use a specific attribute on an element to insert a tooltip.
+## Think Outside the Box
+With community development efforts powered by an [impulse utility][kp_definitions.html#impulseUtility], many options are available to meet fundraising goals.  Keep in mind that kNOw Plans has the ability to serve information to all kNOw Planners looking to act on a charitable impulse.
 
-Suppose you have a glossary.yml file inside your \_data folder. You could pull in that glossary definition like this:
+Let's face it. In a world where it is "survival of the fittest", many can argue that the idea of caring for others is reduced to temporary impulsive moments of empathy. Recall the contemplation of wanting to "do more" for your community when you saw a disturbing news briefing or walked past a homeless person rummaging for scraps in a recycle bin. kNOw Plans provides the perfect outlets to direct your caring impulses by making it easy for you to find community outreach events to patronize fundraisers and volunteer valuable time.
 
-{% raw %}
-```html
-<a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.jekyll_platform}}">Jekyll</a> is my favorite tool for building websites.</a>
-```
-{% endraw %}
 
-This renders to the following:
+# For Early Adopters Only
 
-<a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.jekyll_platform}}">Jekyll</a> is my favorite tool for building websites.
+kNOw Plans Staff will publish an ongoing stream of creative fundrasing ideas before the launch of the mobile app to consumers.
 
 {% include links.html %}

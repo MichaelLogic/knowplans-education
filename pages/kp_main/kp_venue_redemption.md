@@ -1,40 +1,26 @@
 ---
-title: Tooltips
+title: Venue Redemption
 tags: [formatting]
-keywords: popovers, tooltips, user interface text, glossaries, definitions
+keywords: redemption, venues, ddcs, digital drink certificates
 last_updated: July 3, 2016
-summary: "You can add tooltips to any word, such as an acronym or specialized term. Tooltips work well for glossary definitions, because you don't have to keep repeating the definition, nor do you assume the reader already knows the word's meaning."
+summary: "kNOw Plans Venues can transfer funds from their DDC Banking account to their real bank account in two steps."
 sidebar: kp_sidebar
-permalink: mydoc_adding_tooltips.html
-folder: mydoc
+permalink: kp_venue_redemption.html
+folder: kp_main
 ---
 
-## What are collections
-Collections are custom content types different from pages and posts. You might create a collection if you want to treat a specific set of articles in a unique way, such as with a custom layout or listing. For more detail on collections, see [Ben Balter's explanation of collections here](http://ben.balter.com/2016/02/20/jekyll-collections/).
+## DDC Banking
 
-## Create a collection
-To create a collection, add the following in your configuration file:
+In order to redeem and withdraw DDCs, a kNOw Planner must have at least one registered venue and a bank account saved with your profile. Start DDC Banking in "My Account" on the web or in kNOw Plans Business Center on the mobile app.
 
-```
-collections:
-  tooltips:
-    output: true
-```
+In realtime, venue managers can view their DDC transactions and balance via "My Account".
 
-In this example, "tooltips"" is the name of the collection.
 
-## Interacting with collections
+## POS Partners
+kNOw Plans will provide information on the top 200+ point-of-sale software systems that currently service venues.  Specifically, kNOw Plans "Education" module will be the reference for adding a custom payment button to a current point-of-sale software.
 
-You can interact with collections by using the `site.collectionname` namespace, where `collectionname` is what you've configured. In this case, if I wanted to loop through all tooltips, I would use `site.tooltips` instead of `site.pages` or `site.posts`.
+## Withdrawal Transfer Time
+Withdrawals are at the descretion of the venue managing kNOw Planner.  Venues have the autonomy to let DDCs accumilate indefinitely or withdraw to the associated real bank account at any time.  DDCs will convert to the currency of the receiving bank's country.  Once a withdrawal is initiated, funds will be received within 48 hours.
 
-See [Collections in the Jekyll documentation](http://jekyllrb.com/docs/collections/) for more information.
-
-## How to use collections
-
-I haven't found a huge use for collections in normal documentation. However, I did find a use for collections in generating a tooltip file that would be used for delivering tooltips to a user interface from text files in the documentation. See [Help APIs and UI tooltips][mydoc_help_api] for details.
-
-## Video tutorial on collections
-
-See this [video tutorial on Jekyll.tips](http://jekyll.tips/jekyll-casts/introduction-to-collections/) for more details on collections.
 
 {% include links.html %}

@@ -1,27 +1,22 @@
 ---
-title: Tooltips
+title: Supporting Existing Humanitarian Organizations
 tags: [formatting]
-keywords: popovers, tooltips, user interface text, glossaries, definitions
-last_updated: July 3, 2016
-summary: "You can add tooltips to any word, such as an acronym or specialized term. Tooltips work well for glossary definitions, because you don't have to keep repeating the definition, nor do you assume the reader already knows the word's meaning."
+keywords: non-profit, altruism, charity, donations, community, 
+last_updated: Nov 16, 2016
+summary: "With the proper harness for Impulse Data, charitable impulses can be satisfied like never before."
 sidebar: kp_sidebar
-permalink: mydoc_adding_tooltips.html
-folder: mydoc
+permalink: kp_supporting_orgs.html
+folder: kp_main
 ---
 
-## Creating tooltips
-Because this theme is built on Bootstrap, you can simply use a specific attribute on an element to insert a tooltip.
+## Top Benefit of kNOw Plans Ecosystem
+kNOw Plans staff firmly believes the top benefit to the mathematical computations and business logic that form the [Trifected Impulse Data Ecosystem][kp_definitions.html#ecosystemIntegrity] is FREE service to community developers.  kNOw Planners have ways to satisfy their charitible like never before.  This ecosystem will allow non-profit directors and community organizers to get really create with promoting their cause.
 
-Suppose you have a glossary.yml file inside your \_data folder. You could pull in that glossary definition like this:
+Community development groups get a special non-profit license to promote in the "Community Outreach" Event Impulse Category (see [Twelve Event Impulses][kp_definitions.html#twelveImpulses]).
 
-{% raw %}
-```html
-<a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.jekyll_platform}}">Jekyll</a> is my favorite tool for building websites.</a>
-```
-{% endraw %}
+## The First Fundraiser (Early Adopters Only)
+kNOw Plans™ is excited to announce our Early Adopter Promoter Affiliate Program which gives exclusive opportunity to our Community Developer Licensed Promoters to use the launch of the network as the first fundraising effort for their organinzation.  
 
-This renders to the following:
-
-<a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.jekyll_platform}}">Jekyll</a> is my favorite tool for building websites.
+See [Early Adopter Registration][kp_early_adopter_registration].
 
 {% include links.html %}

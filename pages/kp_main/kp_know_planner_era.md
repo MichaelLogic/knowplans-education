@@ -1,27 +1,21 @@
 ---
-title: Tooltips
+title: The "kNOw Planner Era"
 tags: [formatting]
-keywords: popovers, tooltips, user interface text, glossaries, definitions
+keywords: future, Impulse Data, intelligence, possibilities, evolution
 last_updated: July 3, 2016
-summary: "You can add tooltips to any word, such as an acronym or specialized term. Tooltips work well for glossary definitions, because you don't have to keep repeating the definition, nor do you assume the reader already knows the word's meaning."
+summary: "The kNOw Planner Era is defined by a world evolved by the world's impulse utility.  New travel activities, new business opportunities and new ways of supporting humanitarian causes are just some of the great additions to life provided for everyone."
 sidebar: kp_sidebar
-permalink: mydoc_adding_tooltips.html
-folder: mydoc
+permalink: kp_know_planner_era.html
+folder: kp_main
 ---
 
-## Creating tooltips
-Because this theme is built on Bootstrap, you can simply use a specific attribute on an element to insert a tooltip.
+The kNOw Planner Era is defined by a world evolved by the world's impulse utility.  New travel activities, new business opportunities and new ways of supporting humanitarian causes are just some of the great additions to life provided for everyone.
 
-Suppose you have a glossary.yml file inside your \_data folder. You could pull in that glossary definition like this:
+## Travel 
+Most traveling individual have wished for a way to know "what's going on?" when they land in a foreign place.  kNOw Plans™ is that wish come true. Travelers will feel the power of Impulse Data as they engage in local activity as if they were a resident or V.I.P. with connections.
 
-{% raw %}
-```html
-<a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.jekyll_platform}}">Jekyll</a> is my favorite tool for building websites.</a>
-```
-{% endraw %}
 
-This renders to the following:
-
-<a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.jekyll_platform}}">Jekyll</a> is my favorite tool for building websites.
+## Conferences and Break-out Sessions
+When the use of Impulse Data reaches critical mass, finding interesting activities while on vacation will be taken to another level of efficiency only previously dreamed of by passport stampers. Corporations will be coordinating valuable conference break-out session info in a manner that would any single corporation tens of thousands of dollars to develop.
 
 {% include links.html %}

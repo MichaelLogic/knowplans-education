@@ -1,27 +1,18 @@
 ---
-title: Tooltips
+title: kNOw Plans 3%er Sales Tips
 tags: [formatting]
-keywords: popovers, tooltips, user interface text, glossaries, definitions
-last_updated: July 3, 2016
-summary: "You can add tooltips to any word, such as an acronym or specialized term. Tooltips work well for glossary definitions, because you don't have to keep repeating the definition, nor do you assume the reader already knows the word's meaning."
+keywords: sales, tips, marketing, promoters, 3%er
+last_updated: November 16, 2016
+summary: "Get some valuable tips on how to grow your 3%er residual income and create new businesses from intelligence synthesized from Impulse Data™."
 sidebar: kp_sidebar
-permalink: mydoc_adding_tooltips.html
-folder: mydoc
+permalink: kp_sales_tips.html
+folder: kp_main
 ---
 
-## Creating tooltips
-Because this theme is built on Bootstrap, you can simply use a specific attribute on an element to insert a tooltip.
+## For Early Adopters Only
 
-Suppose you have a glossary.yml file inside your \_data folder. You could pull in that glossary definition like this:
+kNOw Plans staff supports 3%ers by providing an updated sales tips for motivating new promoters to register and DDC sales.
 
-{% raw %}
-```html
-<a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.jekyll_platform}}">Jekyll</a> is my favorite tool for building websites.</a>
-```
-{% endraw %}
 
-This renders to the following:
-
-<a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.jekyll_platform}}">Jekyll</a> is my favorite tool for building websites.
 
 {% include links.html %}

@@ -1,27 +1,21 @@
 ---
-title: Tooltips
+title: The Marketing Power of DDCs
 tags: [formatting]
-keywords: popovers, tooltips, user interface text, glossaries, definitions
-last_updated: July 3, 2016
-summary: "You can add tooltips to any word, such as an acronym or specialized term. Tooltips work well for glossary definitions, because you don't have to keep repeating the definition, nor do you assume the reader already knows the word's meaning."
+keywords: exclusivity, marketing, discovery, gifting, currency, sales, revenue
+last_updated: November 16, 2016
+summary: "The main source of marketing power behind DDCs are the exclusivity to transactions only within kNOw Plans Network."
 sidebar: kp_sidebar
-permalink: mydoc_adding_tooltips.html
-folder: mydoc
+permalink: kp_marketing_ddc.html
+folder: kp_main
 ---
 
-## Creating tooltips
-Because this theme is built on Bootstrap, you can simply use a specific attribute on an element to insert a tooltip.
+## Clouds of Cash
+Traditionally most retail establishments are confined to the cashflow of only the customers present. However, when kNOw Planners come into a venue they followed by "clouds of digital cash" impulsively sent to them by friends and family.  If one the business goals is to sell food & beverage, the power of social media is leveraged for venues and promoters automatically.
 
-Suppose you have a glossary.yml file inside your \_data folder. You could pull in that glossary definition like this:
+The power of Digital Drink Certificates is driven by the consumer psychology of impulse spending for friends and family. Sending straight money is tacky and thoughtless. Society has trained us to feel better gifting a consumable good. Businesses that provide food and beverages at fun-time venues will benefit tremendously from this new preferred gifting channel brought to the masses on behalf of impulse data.
 
-{% raw %}
-```html
-<a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.jekyll_platform}}">Jekyll</a> is my favorite tool for building websites.</a>
-```
-{% endraw %}
+## Birthday Clouds are a Welcome Storm
+Social media has trained us to expect a storm of celebratory direct messages, posts and tweets for a birthday. Now it is possible to send that impulsive shower of love to a [Birthday Cloud™][kp_definitions.html#birthdayClouds]. In good taste, friends and family contribute fun-time food & beverage gifts via DDCs.
 
-This renders to the following:
-
-<a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.jekyll_platform}}">Jekyll</a> is my favorite tool for building websites.
 
 {% include links.html %}

@@ -1,41 +1,29 @@
 ---
-title: Tooltips
+title: kNOw Plans Official Venue Entity
 tags: [formatting]
-keywords: popovers, tooltips, user interface text, glossaries, definitions
-last_updated: July 3, 2016
-summary: "You can add tooltips to any word, such as an acronym or specialized term. Tooltips work well for glossary definitions, because you don't have to keep repeating the definition, nor do you assume the reader already knows the word's meaning."
+keywords: venue, location, business, marketing, ecosystem
+last_updated: November 16, 2016
+summary: "The Venue Entity is one of three in kNOw Plans Network."
 sidebar: kp_sidebar
-permalink: mydoc_adding_tooltips.html
-folder: mydoc
+permalink: kp_venue.html
+folder: kp_main
 ---
 
-## What are collections
-Collections are custom content types different from pages and posts. You might create a collection if you want to treat a specific set of articles in a unique way, such as with a custom layout or listing. For more detail on collections, see [Ben Balter's explanation of collections here](http://ben.balter.com/2016/02/20/jekyll-collections/).
+## Automating Venue Visibility
+The Venue entity are physical locations that are registered to a kNOw Planner or Promoter in kNOw Plans [Trifected Impulse Data Ecosystem][kp_definitions.html#ecosystemIntegrity].  Venues must be registered in the network to be considered a "kNOw Plans Official Venue". A kNOw Planner can register a venue for free. kNOw Plans will virtually automate what venues needs to do in order to increase their bottom line sales and customers.
 
-## Create a collection
-To create a collection, add the following in your configuration file:
+## Venue Approval
 
-```
-collections:
-  tooltips:
-    output: true
-```
+To maintain the integrity of kNOw Plans Network, kNOw Plans™ subjects all venue registrations to an ownership check to confirm permission of the establishment to register with financial information. Venue ownership checks complete within 24 hours of submission.  
 
-In this example, "tooltips"" is the name of the collection.
 
-## Interacting with collections
+* low-cost advertising with short-term and long-term options. Benefit from “Per event” charges or a “Phishing License” to insert an unlimited amount of events into the impulse stream.
 
-You can interact with collections by using the `site.collectionname` namespace, where `collectionname` is what you've configured. In this case, if I wanted to loop through all tooltips, I would use `site.tooltips` instead of `site.pages` or `site.posts`.
+* Helps venues capture new local patron and out-of-town walk-ins visiting the area. Consumers will be trained to search for kNOw PLANS venues when visiting unfamiliar cities.
 
-See [Collections in the Jekyll documentation](http://jekyllrb.com/docs/collections/) for more information.
+* Sells more liquor for venues that serve spirits. Venues are the biggest benefactor of Digital Drink Certificates with buying a friend a birthday drink evolving to an impulsive digital social action.
 
-## How to use collections
+* bid on [Birthday Clouds™][bc_introduction] to come to the venue
 
-I haven't found a huge use for collections in normal documentation. However, I did find a use for collections in generating a tooltip file that would be used for delivering tooltips to a user interface from text files in the documentation. See [Help APIs and UI tooltips][mydoc_help_api] for details.
 
-## Video tutorial on collections
-
-See this [video tutorial on Jekyll.tips](http://jekyll.tips/jekyll-casts/introduction-to-collections/) for more details on collections.
-
-{% include links.html %}
 {% include links.html %}

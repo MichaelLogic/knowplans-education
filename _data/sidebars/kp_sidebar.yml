@@ -29,7 +29,7 @@ entries:
       type: homepage
 
     - title: The kNOw Planner Era
-      url: /kp_knowplanner_era.html
+      url: /kp_know_planner_era.html
       output: web, pdf
 
     - title: Features
@@ -38,10 +38,6 @@ entries:
 
     - title: Definitions
       url: /kp_definitions.html
-      output: web, pdf
-
-    - title: Support
-      url: /kp_support.html
       output: web, pdf
 
   - title: Impulse Data™
@@ -143,6 +139,10 @@ entries:
 
     - title: Receiving DDCs
       url: /kp_receiving_ddc.html
+      output: web, pdf
+
+    - title: Purchasing with DDCs
+      url: /kp_purchasing_with_ddc.html
       output: web, pdf
 
     - title: Venue Redemption

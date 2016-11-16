@@ -37,16 +37,34 @@ The following definitions contain all the published proprietary terms for kNOw P
 ## Impulse Stream {#impulseStream}
 - a proprietary name for the Instagram-like thread of event announcements organized by the Twelve Event Impulses and distance.
 
+## Impulse Utility {#impulseUtility}
+- the generic term for kNOw Plans app.  Further characterizes the technology of this marketing tool focused around last minute decision-making.
+
+## Impulse Alerts {#impulseAlerts}
+- an add-on to a promoter license. This add-on license gives you the ability to send instantaneous announcements to kNOw Planners who are in [Discover Mode][kp_definitions.html#discoverMode].
+
 ## Trifected Impulse Data Ecosystem {#ecosystemIntegrity}
 - the name for kNOw Plans' network structure. Venues, promoters and consumers interact via a highly calculated formula focused on impulsive activity. This interaction, when balanced, creates a whole self-sustaining application ecosystem strong enough to spawn whole new types of businesses.  
 
-## Digital Drink Certificates [#digitalDrinkCerts]
+## Digital Drink Certificates {#digitalDrinkCerts}
 - the official food and beverage digital currency of kNOw Plans.  Also called "DDCs", "Wet Kisses" and "Buddy Bear"
 
-## Advertising Bandwidth [#advertisingBandwidth]
+## Advertising Bandwidth {#advertisingBandwidth}
 - the amount of simultaneous Impulse Events a single promoter has in the Impulse Stream.
 
-## Discover Mode [#discoverMode]
+## Discover Mode {#discoverMode}
 - toggle this mode in your Impulse Alerts screen of your mobile app to accept income Impulse Alerts from promoters and venues.
+
+## Drink Suggestion {#drinkSuggestion}
+- selectable drink option available when sending DDCs to a fellow kNOw Planner.  Drink selection content varies based on kNOw Plans' current food and beverage partners.
+
+## Server ID {#serverID}
+- a four-digit PIN associated with a server working at a kNOw Plans Venue. Server IDs can be acquired when DDC Banking is activated on a kNOw Planner's account to accept Digital Drink Certificates.
+
+## Birthday Cloud™ {#birthdayCloud}
+- a virtual crowd fund for a kNOw Planner's birthday.  Designed to all social media friends to tastefully contribute to a birthday event.
+
+## critical mass {#criticalMass}
+- the user milestone of a majority of applicable businesses and citizens using kNOw Plans.
 
 

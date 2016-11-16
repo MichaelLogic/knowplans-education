@@ -17,8 +17,14 @@ entries:
     - title: Some link bookmark
       url: /mydoc_pages.html#someIdTag
 
+    - title: Impulse Data
+      url: /kp_definitions.html#impulseData
+
     - title: Impulse Event
       url: /kp_definitions.html#impulseEvent
+
+    - title: Impulse Stream
+      url: /kp_definitions.html#impulseStream
 
     - title: Trifected Impulse Data Ecosystem
       url: /kp_definitions.html#kpEcosystemIntegrity
@@ -35,4 +41,12 @@ entries:
     - title: Twelve Impulses
       url: /kp_definitions.html#twelveImpulses
 
+    - title: Drink Suggestion
+      url: /kp_definitions.html#drinkSuggestion
+
+    - title: Impulse Utility
+      url: /kp_definitions.html#impulseUtility
+
+    - title: Critical Mass
+      url: /kp_definitions.html#criticalMass
 

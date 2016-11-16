@@ -1,40 +1,45 @@
 ---
-title: Tooltips
+title: kNOw Plans Ecosystem Integrity
 tags: [formatting]
-keywords: popovers, tooltips, user interface text, glossaries, definitions
-last_updated: July 3, 2016
-summary: "You can add tooltips to any word, such as an acronym or specialized term. Tooltips work well for glossary definitions, because you don't have to keep repeating the definition, nor do you assume the reader already knows the word's meaning."
+keywords: integrity, data, ecosystem, spam
+last_updated: November 16, 2016
+summary: "kNOw Plans will be an amazing addition to global society. It is important to maintain integrity of the data and ecosystem."
 sidebar: kp_sidebar
-permalink: mydoc_adding_tooltips.html
-folder: mydoc
+permalink: kp_ecosystem_integrity.html
+folder: kp_main
 ---
 
-## What are collections
-Collections are custom content types different from pages and posts. You might create a collection if you want to treat a specific set of articles in a unique way, such as with a custom layout or listing. For more detail on collections, see [Ben Balter's explanation of collections here](http://ben.balter.com/2016/02/20/jekyll-collections/).
+## The Power of 3
 
-## Create a collection
-To create a collection, add the following in your configuration file:
+At its core, kNOw Plans is a product of the Impulse Data algorithm and the constant number of entities in its interactive ecosystem: three. 
 
-```
-collections:
-  tooltips:
-    output: true
-```
+The application logic that reverberates from this type of interactive architecture creates a wonderful balance.  When automated in current society, it is calculated to create the Trifected Impulse Data Ecosystem.
 
-In this example, "tooltips"" is the name of the collection.
+{% include image.html file="diag_trifected_impulse_ecosystem.jpg" alt="Trifected Impulse Data Ecosystem" caption="Diagram of kNOw Plans Trifected Impulse Data Ecosystem" %}
 
-## Interacting with collections
+## Integrity Stardards
+kNOw Plans™ is committed to protecting sensitive data and maintaining a high quality of a new special type of data that our world will grow to depend on. As part this commitment, our technopaths have derived Impulse Data Integrity Standards to motivate proper practice.
 
-You can interact with collections by using the `site.collectionname` namespace, where `collectionname` is what you've configured. In this case, if I wanted to loop through all tooltips, I would use `site.tooltips` instead of `site.pages` or `site.posts`.
+* kNOw Plans™ is partnered with a banking institution that uses a powerful TransArmor™ Token Transaction Security which is rated as the most secure in the banking industry.
 
-See [Collections in the Jekyll documentation](http://jekyllrb.com/docs/collections/) for more information.
+* Only encrypted representations of consumer credit information is stored directly into our application database.
 
-## How to use collections
+* kNOw Plans API access is only available to partnering POS technopaths.
 
-I haven't found a huge use for collections in normal documentation. However, I did find a use for collections in generating a tooltip file that would be used for delivering tooltips to a user interface from text files in the documentation. See [Help APIs and UI tooltips][mydoc_help_api] for details.
+* POS technopaths are identified by their technopath key and verified as valid POS developers before given access to develop with Impulse Data.
 
-## Video tutorial on collections
+* kNOw Plans Impulse Utility is not social media which helps us minimize malicious data attacks of said platforms that are caused by human habits.
 
-See this [video tutorial on Jekyll.tips](http://jekyll.tips/jekyll-casts/introduction-to-collections/) for more details on collections.
+* All consumers are confirmed with phone number and email verification.
+
+* kNOw Plans staff publishes a free training course for POS Developers and free “edutainment” for consumers to augment your awareness of good impulse practices.
+
+* kNOw Plans processes all payments and redemptions independently of any POS system. At tender, POS software only needs to request a secure list of transactions sent to that establishment for server verification.
+
+* Verbose reporting is derived weekly and reviewed for analytical anomalies that may be compromising the Impulse Data.
+
+* kNOw Plans will provide extreme transparency of Impulse Data analytics for licensed promoters and official kNOw Plans registered Venues.
+
+
 
 {% include links.html %}

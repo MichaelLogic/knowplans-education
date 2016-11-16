@@ -1,27 +1,23 @@
 ---
-title: Tooltips
-tags: [formatting]
-keywords: popovers, tooltips, user interface text, glossaries, definitions
-last_updated: July 3, 2016
-summary: "You can add tooltips to any word, such as an acronym or specialized term. Tooltips work well for glossary definitions, because you don't have to keep repeating the definition, nor do you assume the reader already knows the word's meaning."
+title: 3%er Partnership Requirements
+tags: [partnership]
+keywords: requirements, early adopter, business, 3%er
+last_updated: November 16, 2016
+summary: "kNOw Plans Requirements to become a 3%er Partner in the Early Adopter Business Program."
 sidebar: kp_sidebar
-permalink: mydoc_adding_tooltips.html
-folder: mydoc
+permalink: kp_partnership_requirements.html
+folder: kp_main
 ---
 
-## Creating tooltips
-Because this theme is built on Bootstrap, you can simply use a specific attribute on an element to insert a tooltip.
+An Early Adopter must meet a few requirements before being considered a "3%er" Parnter.
 
-Suppose you have a glossary.yml file inside your \_data folder. You could pull in that glossary definition like this:
+* Must be a licensed promoter with kNOw Plans
 
-{% raw %}
-```html
-<a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.jekyll_platform}}">Jekyll</a> is my favorite tool for building websites.</a>
-```
-{% endraw %}
+* Promoter licensed must be purchased during Early Adopter Business Registration Period. Refer to [kNOwPlans.com](https://knowplans.com)
 
-This renders to the following:
+* Must refer at least 5 kNOw Planners that purchase a promoter license and/or register a venue.
 
-<a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.jekyll_platform}}">Jekyll</a> is my favorite tool for building websites.
+* 3%ers must have an active bank account to receive commission payments
+
 
 {% include links.html %}

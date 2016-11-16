@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Massaging the data will be a specialty of kNOw Plans Tech Team.  We will synthesis actionable Impulse Data of kNOw Planners and produce helpful analytics.">
+<meta name="keywords" content="analytics,  popovers, tooltips, user interface text, glossaries, definitions">
+<title>Impulse Data Analytics | kNOW Plans™ Business and Technical Documentation</title>
+<link rel="stylesheet" href="css/syntax.css">
+
+
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<!--<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">-->
+<link rel="stylesheet" href="css/modern-business.css">
+<link rel="stylesheet" href="css/lavish-bootstrap.css">
+<link rel="stylesheet" href="css/customstyles.css">
+<link rel="stylesheet" href="css/theme-blue.css">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script src="js/jquery.navgoco.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/2.0.0/anchor.min.js"></script>
+<script src="js/toc.js"></script>
+<script src="js/customscripts.js"></script>
+
+<link rel="shortcut icon" href="images/favicon.ico">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<link rel="alternate" type="application/rss+xml" title="" href="http://localhost:4005feed.xml">
+
+    <script>
+        $(document).ready(function() {
+            // Initialize navgoco with default options
+            $("#mysidebar").navgoco({
+                caretHtml: '',
+                accordion: true,
+                openClass: 'active', // open
+                save: false, // leave false or nav highlighting doesn't work right
+                cookie: {
+                    name: 'navgoco',
+                    expires: false,
+                    path: '/'
+                },
+                slide: {
+                    duration: 400,
+                    easing: 'swing'
+                }
+            });
+
+            $("#collapseAll").click(function(e) {
+                e.preventDefault();
+                $("#mysidebar").navgoco('toggle', false);
+            });
+
+            $("#expandAll").click(function(e) {
+                e.preventDefault();
+                $("#mysidebar").navgoco('toggle', true);
+            });
+
+        });
+
+    </script>
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
+    
+
+</head>
+<body>
+<!-- Navigation -->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container topnavlinks">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="fa fa-home fa-lg navbar-brand" href="index.html">&nbsp;<span class="projectTitle"> kNOw Plans™ Education</span></a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <!-- entries without drop-downs appear here -->
+                
+                
+                
+                <li><a href="updates">Updates</a></li>
+                
+                
+                
+                <!-- entries with drop-downs appear here -->
+                <!-- conditional logic to control which topnav appears for the audience defined in the configuration file.-->
+                
+                
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Birthday Clouds™<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        
+                        
+                        <li><a href="bc_introduction.html">What is a Birthday Cloud™?</a></li>
+                        
+                        
+                        
+                        <li><a href="bc_create_a_cloud.html">Create A Cloud</a></li>
+                        
+                        
+                        
+                        <li><a href="bc_share_a_cloud.html">Share A Cloud</a></li>
+                        
+                        
+                        
+                        <li><a href="bc_auctions.html">Auctions</a></li>
+                        
+                        
+                        
+                        <li><a href="bc_expiration.html">Expiration</a></li>
+                        
+                        
+                    </ul>
+                </li>
+                
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Licences<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        
+                        
+                        <li><a href="license_overview.html">Promoter Licensing</a></li>
+                        
+                        
+                        
+                        <li><a href="license_community_developer.html">Community Developer</a></li>
+                        
+                        
+                        
+                        <li><a href="license_small_business.html">Small Business Promoter</a></li>
+                        
+                        
+                        
+                        <li><a href="license_franchised.html">Franchised Corporate Promoter</a></li>
+                        
+                        
+                        
+                        <li><a href="license_impulse_alerts.html">Impulse Alerts™</a></li>
+                        
+                        
+                    </ul>
+                </li>
+                
+                
+                
+                <!--comment out this block if you want to hide search-->
+                <li>
+                    <!--start search-->
+                    <div id="search-demo-container">
+                        <input type="text" id="search-input" placeholder="search...">
+                        <ul id="results-container"></ul>
+                    </div>
+                    <script src="js/jekyll-search.js" type="text/javascript"></script>
+                    <script type="text/javascript">
+                            SimpleJekyllSearch.init({
+                                searchInput: document.getElementById('search-input'),
+                                resultsContainer: document.getElementById('results-container'),
+                                dataSource: 'search.json',
+                                searchResultTemplate: '<li><a href="{url}" title="Impulse Data Analytics">{title}</a></li>',
+                    noResultsText: 'No results found.',
+                            limit: 10,
+                            fuzzy: true,
+                    })
+                    </script>
+                    <!--end search-->
+                </li>
+            </ul>
+        </div>
+        </div>
+        <!-- /.container -->
+</nav>
+
+<!-- Page Content -->
+<div class="container">
+    <div class="col-lg-12">&nbsp;</div>
+    <!-- Content Row -->
+    <div class="row">
+        <!-- Sidebar Column -->
+        <div class="col-md-3">
+
+          
+
+
+
+
+
+
+
+
+
+
+
+
+<ul id="mysidebar" class="nav">
+    <li class="sidebarTitle">kNOw Plans™ Beta 1.0</li>
+    
+    
+    
+        
+    
+    <li>
+        <a href="#">Overview</a>
+        <ul>
+            
+            
+            
+            <li><a href="index.html">Get started</a></li>
+            
+            
+            
+            
+            
+            
+            <li><a href="kp_know_planner_era.html">The kNOw Planner Era</a></li>
+            
+            
+            
+            
+            
+            
+            <li><a href="kp_features.html">Features</a></li>
+            
+            
+            
+            
+            
+            
+            <li><a href="kp_definitions.html">Definitions</a></li>
+            
+            
+            
+            
+        </ul>
+        
+        
+    
+    <li>
+        <a href="#">Impulse Data™</a>
+        <ul>
+            
+            
+            
+            <li><a href="kp_algorithm.html">The Algorithm</a></li>
+            
+            
+            
+            
+            
+            
+            <li><a href="kp_data_integrity.html">Data Integrity</a></li>
+            
+            
+            
+            
+            
+            
+            <li class="active"><a href="kp_analytics.html">Analytics</a></li>
+            
+            
+            
+            
+            
+            
+            <li><a href="kp_predictions.html">Predicting the Future</a></li>
+            
+            
+            
+            
+        </ul>
+        
+        
+    
+    <li>
+        <a href="#">Trifected Ecosystem</a>
+        <ul>
+            
+            
+            
+            <li><a href="kp_ecosystem_integrity.html">Ecosystem Integrity</a></li>
+            
+            
+            
+            
+            
+            
+            <li><a href="kp_venue.html">Venue</a></li>
+            
+            
+            
+            
+            
+            
+            <li><a href="kp_promoter.html">Promoter</a></li>
+            
+            
+            
+            
+            
+            
+            <li><a href="kp_consumer.html">Consumer</a></li>
+            
+            
+            
+            
+            
+            
+            <li><a href="kp_phishing_poles.html">Phishing Poles</a></li>
+            
+            
+            
+            
+        </ul>
+        
+        
+    
+    <li>
+        <a href="#">3%er Partnership</a>
+        <ul>
+            
+            
+            
+            <li><a href="kp_early_adopter_registration.html">Early Adopter Registration</a></li>
+            
+            
+            
+            
+            
+            
+            <li><a href="kp_partnership_requirements.html">Partnership Requirements</a></li>
+            
+            
+            
+            
+            
+            
+            <li><a href="kp_residual_income.html">Residual Commission</a></li>
+            
+            
+            
+            
+            
+            
+            <li><a href="kp_sending_invitations.html">Sending Invitations</a></li>
+            
+            
+            
+            
+            
+            
+            <li><a href="kp_sales_tips.html">Sales Tips</a></li>
+            
+            
+            
+            
+            
+            
+            <li><a href="kp_3percenter_legal.html">3%er Legal</a></li>
+            
+            
+            
+            
+        </ul>
+        
+        
+    
+    <li>
+        <a href="#">Community Development</a>
+        <ul>
+            
+            
+            
+            <li><a href="kp_supporting_orgs.html">Supporting Existing Orgs</a></li>
+            
+            
+            
+            
+            
+            
+            <li><a href="kp_fundraising.html">Creative Fundraising</a></li>
+            
+            
+            
+            
+        </ul>
+        
+        
+    
+    <li>
+        <a href="#">Digital Drink Certificates™</a>
+        <ul>
+            
+            
+            
+            <li><a href="kp_ddc_intro.html">What is a DDC?</a></li>
+            
+            
+            
+            
+            
+            
+            <li><a href="kp_sending_ddc.html">Sending DDCs</a></li>
+            
+            
+            
+            
+            
+            
+            <li><a href="kp_receiving_ddc.html">Receiving DDCs</a></li>
+            
+            
+            
+            
+            
+            
+            <li><a href="kp_purchasing_with_ddc.html">Purchasing with DDCs</a></li>
+            
+            
+            
+            
+            
+            
+            <li><a href="kp_venue_redemption.html">Venue Redemption</a></li>
+            
+            
+            
+            
+            
+            
+            <li><a href="kp_marketing_ddc.html">Marketing DDCs</a></li>
+            
+            
+            
+            
+        </ul>
+        
+        
+        
+        <!-- if you aren't using the accordion, uncomment this block:
+           <p class="external">
+               <a href="#" id="collapseAll">Collapse All</a> | <a href="#" id="expandAll">Expand All</a>
+           </p>
+           -->
+    </li>
+</ul>
+</div>
+
+<!-- this highlights the active parent class in the navgoco sidebar. this is critical so that the parent expands when you're viewing a page. This must appear below the sidebar code above. Otherwise, if placed inside customscripts.js, the script runs before the sidebar code runs and the class never gets inserted.-->
+<script>$("li.active").parents('li').toggleClass("active");</script>
+
+    <!-- Content Column -->
+    <div class="col-md-9">
+        <div class="post-header">
+   <h1 class="post-title-main">Impulse Data Analytics</h1>
+</div>
+
+
+
+<div class="post-content">
+
+   
+    <div class="summary">Massaging the data will be a specialty of kNOw Plans Tech Team.  We will synthesis actionable Impulse Data of kNOw Planners and produce helpful analytics.</div>
+   
+
+    
+    
+<!-- this handles the automatic toc. use ## for subheads to auto-generate the on-page minitoc. if you use html tags, you must supply an ID for the heading element in order for it to appear in the minitoc. -->
+<script>
+$( document ).ready(function() {
+  // Handler for .ready() called.
+
+$('#toc').toc({ minimumHeaders: 0, listType: 'ul', showSpeed: 0, headers: 'h2,h3,h4' });
+
+/* this offset helps account for the space taken up by the floating toolbar. */
+$('#toc').on('click', 'a', function() {
+  var target = $(this.getAttribute('href'))
+    , scroll_target = target.offset().top
+
+  $(window).scrollTop(scroll_target - 10);
+  return false
+})
+  
+});
+</script>
+
+<div id="toc"></div>
+
+    
+
+    
+
+    
+
+    <a target="_blank" href="https://github.com/michaellogic/knowplans-education/blob/gh-pages/pages//_pages/kp_main/kp_analytics.html.md" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
+    
+
+    
+
+  <h2 id="massaging-the-data">Massaging the Data</h2>
+<p>Massaging the data will be a specialty of kNOw Plans Tech Team.  We will synthesis actionable Impulse Data of kNOw Planners and produce helpful analytics.</p>
+
+<p>Different sets of analytics will be available for the following:</p>
+
+<ul>
+  <li>Impulse Event Analytics</li>
+  <li>Impulse Alert Analytics</li>
+  <li>Regional Geo-Event Analytics</li>
+</ul>
+
+
+
+    <div class="tags">
+        
+        <b>Tags: </b>
+        
+        
+        
+        
+        
+    </div>
+
+    
+
+</div>
+
+<hr class="shaded"/>
+
+<footer>
+            <div class="row">
+                <div class="col-lg-12 footer">
+               &copy;2016 kNOw Plans™ LLC.. All rights reserved. <br />
+<span>Page last updated:</span> November 16, 2016<br/> Site last generated: Nov 16, 2016 <br />
+<p><img src="images/kp_bc_logo.jpg" alt="kNOw Plans Logo"/></p>
+                </div>
+            </div>
+</footer>
+
+
+    </div>
+    <!-- /.row -->
+</div>
+<!-- /.container -->
+    </div>
+
+</body>
+
+</html>

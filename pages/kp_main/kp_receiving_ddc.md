@@ -1,27 +1,18 @@
 ---
-title: Tooltips
+title: Receiving DDCs
 tags: [formatting]
-keywords: popovers, tooltips, user interface text, glossaries, definitions
-last_updated: July 3, 2016
-summary: "You can add tooltips to any word, such as an acronym or specialized term. Tooltips work well for glossary definitions, because you don't have to keep repeating the definition, nor do you assume the reader already knows the word's meaning."
+keywords: digital drink certificates, receiving, my bar, gift, currency
+last_updated: November 16, 2016
+summary: "kNOw Planners can receive Digital Drink Certificates from anyone."
 sidebar: kp_sidebar
-permalink: mydoc_adding_tooltips.html
-folder: mydoc
+permalink: kp_receiving_ddc.html
+folder: kp_main
 ---
 
-## Creating tooltips
-Because this theme is built on Bootstrap, you can simply use a specific attribute on an element to insert a tooltip.
+## My Bar
 
-Suppose you have a glossary.yml file inside your \_data folder. You could pull in that glossary definition like this:
+Digital Drink Certificates are stored in "My Bar" section of kNOw Plans.  A kNOw Planner does not have to perform a particular action to receive DDCs. Upon sending DDCs, the recipient will be alerted via Push Notification, email and in-app alert. 
 
-{% raw %}
-```html
-<a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.jekyll_platform}}">Jekyll</a> is my favorite tool for building websites.</a>
-```
-{% endraw %}
-
-This renders to the following:
-
-<a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.jekyll_platform}}">Jekyll</a> is my favorite tool for building websites.
+There is no expiration date on DDCs you have received from active or non-active kNOw Planners.
 
 {% include links.html %}

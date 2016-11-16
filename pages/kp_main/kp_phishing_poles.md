@@ -1,27 +1,29 @@
 ---
-title: Tooltips
+title: Phishing Poles
 tags: [formatting]
-keywords: popovers, tooltips, user interface text, glossaries, definitions
-last_updated: July 3, 2016
-summary: "You can add tooltips to any word, such as an acronym or specialized term. Tooltips work well for glossary definitions, because you don't have to keep repeating the definition, nor do you assume the reader already knows the word's meaning."
+keywords: new businesses, pop-up, ideas, phishing poles
+last_updated: November 16, 2016
+summary: "kNOw Plans will spawn all types of new businesses and "
 sidebar: kp_sidebar
-permalink: mydoc_adding_tooltips.html
-folder: mydoc
+permalink: kp_phishing_poles.html
+folder: kp_main
 ---
 
-## Creating tooltips
-Because this theme is built on Bootstrap, you can simply use a specific attribute on an element to insert a tooltip.
+## What is a Phishing Pole?
 
-Suppose you have a glossary.yml file inside your \_data folder. You could pull in that glossary definition like this:
+A phishing phole is the term we give to a kNOw Plans Impulse Event introducing a new "type" of business/product/service.
 
-{% raw %}
-```html
-<a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.jekyll_platform}}">Jekyll</a> is my favorite tool for building websites.</a>
-```
-{% endraw %}
+[Impulse Data][kp_definitions.html#impulseData] will be the foundation of a whole new ecosystem stabilized by three entities: The Promoter, The Venue & The Consumer. Entrepreneurs will be introduced to the concept of a “phishing pole”, which will allow new business owners to virtually “cast out good promo bait” into the impulse river and efficiently test a new concept/idea.
 
-This renders to the following:
+A new business trend called a "pop-up business" is a prime contender for creating a phishing pole campaign to test it in the [Impulse Stream][kp_definitions.html#impulseStream]
 
-<a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.jekyll_platform}}">Jekyll</a> is my favorite tool for building websites.
+## Bring Big City Connectivity to the Suburbs
+
+Any Millennial growing up in the suburbs can testify to the frustrations of finding “where to do go to do what you want to do” when you haven’t been specifically informed in advance. The suburbs won’t be the same “hit-or-miss” when businesses are all tapped into the new civil liberty of Impulse Data.
+
+#Examples
+
+kNOw Plans™ staff will provide examples of great Phishing Poles before Beta Launch to consumers.
+
 
 {% include links.html %}

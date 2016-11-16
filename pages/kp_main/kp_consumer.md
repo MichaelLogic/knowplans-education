@@ -1,40 +1,27 @@
 ---
-title: Tooltips
+title: kNOw Plans™ Consumer Entity
 tags: [formatting]
-keywords: popovers, tooltips, user interface text, glossaries, definitions
+keywords: consumer, ecosystem, entity
 last_updated: July 3, 2016
-summary: "You can add tooltips to any word, such as an acronym or specialized term. Tooltips work well for glossary definitions, because you don't have to keep repeating the definition, nor do you assume the reader already knows the word's meaning."
+summary: "The Consumer Entity is one of three in kNOw Plans Network."
 sidebar: kp_sidebar
-permalink: mydoc_adding_tooltips.html
-folder: mydoc
+permalink: kp_consumer.html
+folder: kp_main
 ---
 
-## What are collections
-Collections are custom content types different from pages and posts. You might create a collection if you want to treat a specific set of articles in a unique way, such as with a custom layout or listing. For more detail on collections, see [Ben Balter's explanation of collections here](http://ben.balter.com/2016/02/20/jekyll-collections/).
+## The Largest Entity in the Ecosystem
+The Consumer entity is the largest in kNOw Plans [Trifected Impulse Data Ecosystem][kp_definitions.html#ecosystemIntegrity].  These are the regular kNOw Planners that engage the mobile app for the following:
 
-## Create a collection
-To create a collection, add the following in your configuration file:
+* search for events to attend
+* send DDCs
+* purchase something with DDCs
+* check [Impulse Alerts™][kp_impulse_alerts]
+* check Birthday Cloud & DDC balance
 
-```
-collections:
-  tooltips:
-    output: true
-```
+## The Lifestyle
 
-In this example, "tooltips"" is the name of the collection.
+Observe, the Millennial generation has motivated an inevitable shift in the consumer behavior among all demographics that pushed businesses into finding ways to reward the last-minute decision maker probing through streams of abundant merchants. Impulse Data will teach that “know planning” is actually “planning to let an intelligent impulse algorithm help minimize time spent on making decisions on where to go and what to do?”
 
-## Interacting with collections
-
-You can interact with collections by using the `site.collectionname` namespace, where `collectionname` is what you've configured. In this case, if I wanted to loop through all tooltips, I would use `site.tooltips` instead of `site.pages` or `site.posts`.
-
-See [Collections in the Jekyll documentation](http://jekyllrb.com/docs/collections/) for more information.
-
-## How to use collections
-
-I haven't found a huge use for collections in normal documentation. However, I did find a use for collections in generating a tooltip file that would be used for delivering tooltips to a user interface from text files in the documentation. See [Help APIs and UI tooltips][mydoc_help_api] for details.
-
-## Video tutorial on collections
-
-See this [video tutorial on Jekyll.tips](http://jekyll.tips/jekyll-casts/introduction-to-collections/) for more details on collections.
+In 2013, MLA surveyed 150 individuals between the ages of 21 - 40 via social media. This survey found that over 50% of the people did not plan their party outing no more than a few hours before they set foot out of the house or office.
 
 {% include links.html %}

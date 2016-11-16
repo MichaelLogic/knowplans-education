@@ -1,40 +1,17 @@
 ---
-title: Tooltips
-tags: [formatting]
-keywords: popovers, tooltips, user interface text, glossaries, definitions
-last_updated: July 3, 2016
-summary: "You can add tooltips to any word, such as an acronym or specialized term. Tooltips work well for glossary definitions, because you don't have to keep repeating the definition, nor do you assume the reader already knows the word's meaning."
+title: kNOw Plans Data Integrity
+tags: [integrity]
+keywords: data, integrity, Impulse Data, ecosystem, standards
+last_updated: November 16, 2016
+summary: "kNOw Plans Tech Team takes pride in paying special attention to maintaining the level of integrity of Impulse Data."
 sidebar: kp_sidebar
-permalink: mydoc_adding_tooltips.html
-folder: mydoc
+permalink: kp_data_integrity.html
+folder: kp_main
 ---
 
-## What are collections
-Collections are custom content types different from pages and posts. You might create a collection if you want to treat a specific set of articles in a unique way, such as with a custom layout or listing. For more detail on collections, see [Ben Balter's explanation of collections here](http://ben.balter.com/2016/02/20/jekyll-collections/).
+## Maintaining a Balance
+Simply put, kNOw Plans Network was created for a balanced ecosystem calculated interaction amongst our three entities. It is mandatory that kNOw Plans require licenses and enforce certain data standards to proserve the application ecosystem.
 
-## Create a collection
-To create a collection, add the following in your configuration file:
-
-```
-collections:
-  tooltips:
-    output: true
-```
-
-In this example, "tooltips"" is the name of the collection.
-
-## Interacting with collections
-
-You can interact with collections by using the `site.collectionname` namespace, where `collectionname` is what you've configured. In this case, if I wanted to loop through all tooltips, I would use `site.tooltips` instead of `site.pages` or `site.posts`.
-
-See [Collections in the Jekyll documentation](http://jekyllrb.com/docs/collections/) for more information.
-
-## How to use collections
-
-I haven't found a huge use for collections in normal documentation. However, I did find a use for collections in generating a tooltip file that would be used for delivering tooltips to a user interface from text files in the documentation. See [Help APIs and UI tooltips][mydoc_help_api] for details.
-
-## Video tutorial on collections
-
-See this [video tutorial on Jekyll.tips](http://jekyll.tips/jekyll-casts/introduction-to-collections/) for more details on collections.
+See [Trifected Impulse Data Ecosystem][kp_ecosystem_integrity].
 
 {% include links.html %}
