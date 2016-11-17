@@ -15,7 +15,7 @@ The Consumer entity is the largest in kNOw Plans [Trifected Impulse Data Ecosyst
 * search for events to attend
 * send DDCs
 * purchase something with DDCs
-* check [Impulse Alerts™][kp_impulse_alerts]
+* check [Impulse Alerts™][kp_definitions.html#impulseAlerts]
 * check Birthday Cloud & DDC balance
 
 ## The Lifestyle

@@ -50,3 +50,6 @@ entries:
     - title: Critical Mass
       url: /kp_definitions.html#criticalMass
 
+    - title: Server ID
+      url: /kp_definitions.html#serverID
+

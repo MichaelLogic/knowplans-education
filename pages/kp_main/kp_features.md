@@ -14,9 +14,9 @@ kNOw Plans carries app features that allow for the following:
 
 * Verbose geo-location event search for events taking place within the next 24 hours.
 
-* [Twelve Impulses][kp_defintions.html#twelveImpulses] categorized for quick subjection of your current desire.
+* [Twelve Impulses][kp_definitions.html#twelveImpulses] categorized for quick subjection of your current desire.
 
-* Map View and List View for [Impulse Stream][kp_defintions.html#impulseStream] of Events
+* Map View and List View for [Impulse Stream][kp_definitions.html#impulseStream] of Events
 
 * [Birthday Clouds™][bc_introduction] for tastefully crowd funding your birthday with friends and family.
 
