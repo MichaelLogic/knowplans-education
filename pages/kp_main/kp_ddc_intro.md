@@ -3,14 +3,14 @@ title: Digital Drink Certificates™
 tags: [formatting]
 keywords: food, beverage, wine, spirits, currency, drinks, venues, wet kisses, buddy beer
 last_updated: Nov 15, 2016
-summary: "You can add tooltips to any word, such as an acronym or specialized term. Tooltips work well for glossary definitions, because you don't have to keep repeating the definition, nor do you assume the reader already knows the word's meaning."
+summary: "Digital Drink Certificates is an exclusive digital currency to the network for the purpose of impulsive gifting of food and beverage."
 sidebar: kp_sidebar
 permalink: kp_ddc_intro.html
 folder: kp_main
 ---
 
 ## Gifting Food & Beverage Currency
-Techs and marketing experts at kNOw Plans notice the ability for kNOw Plans to be a complete self-sustaining business ecosystem (see [Trifected Impulse Data Ecosystem][kp_definitions.html#ecosystemIntegrity]). In result, kNOw Plans introduces an exclusive digital currency to the network for the purpose of impulsive gifting of food and beverage.  Digital Drink Certificates encourage spending at official kNOw Plans venues.
+Techs and marketing experts at kNOw Plans notice the ability for kNOw Plans to be a complete self-sustaining business ecosystem (see [Trifected Impulse Data Ecosystem][kp_ecosystem_integrity]). In result, kNOw Plans introduces an exclusive digital currency to the network for the purpose of impulsive gifting of food and beverage.  Digital Drink Certificates encourage spending at official kNOw Plans venues.
 
 For maintaining the integrity of “impulse” inside our system, we do not allow kNOw Planners to redeem beverage certificates at non-registered venues. A kNOw PLANS venue's server ID and the venue’s ID must be associated with every transaction.
 

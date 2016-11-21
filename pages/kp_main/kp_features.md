@@ -26,7 +26,7 @@ kNOw Plans carries app features that allow for the following:
 
 * RSVP and Pay for admission to some events
 
-* [Impulse Alerts™][kp_definitions.html#impulseAlerts] will revolutionize how physical venues reach out to great local customers
+* [Impulse Alerts™][license_impulse_alerts] will revolutionize how physical venues reach out to great local customers
 
 * Promoter licenses provide advertising priviledges
 
