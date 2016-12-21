@@ -8,7 +8,7 @@ folder: licenses
 ---
 
 ## Promotional Priviledges
-The Small Business Promoter License is specifically structured for an individual event producer and locations simultaneously. This license carries the largest advertising bandwidth allowed in kNOw Plans Network. It is necessary to set different protocols for small and large businesses to maintain the integrity of the [Trifected Impulse Data Ecosystem][kpEcosystemIntegrity].
+The Small Business Promoter License is specifically structured for an individual event producer and locations simultaneously. This license carries the largest advertising bandwidth allowed in kNOw Plans Network. It is necessary to set different protocols for small and large businesses to maintain the integrity of the [Trifected Impulse Data Ecosystem][kp_ecosystem_integrity].
 
 A Small Business Promoter Licenses is priviledged to ...
 

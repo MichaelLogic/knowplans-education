@@ -8,7 +8,7 @@ folder: licenses
 ---
 
 ## Promotional Priviledges
-The Franchised Corporate Promoter License is specifically structured for marketing directors and campaign managers of large corporations that consistently promote multiple events in multiple locations simultaneously. This license carries the largest advertising bandwidth allowed in kNOw Plans Network. It is necessary to set different protocols for small and large businesses to maintain the integrity of the [Trifected Impulse Data Ecosystem][kpEcosystemIntegrity].
+The Franchised Corporate Promoter License is specifically structured for marketing directors and campaign managers of large corporations that consistently promote multiple events in multiple locations simultaneously. This license carries the largest advertising bandwidth allowed in kNOw Plans Network. It is necessary to set different protocols for small and large businesses to maintain the integrity of the [Trifected Impulse Data Ecosystem][kp_ecosystem_integrity].
 
 A Franchised Corporate Promoter License is priviledged to ...
 
