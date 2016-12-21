@@ -8,7 +8,7 @@ folder: licenses
 ---
 
 ## Promotional Priviledges
-The Community Developer License is a special to the creators of kNOw Plans. It represents the humanitarian product of the equation that balances the [Trifected Impulse Data Ecosystem][kpEcosystemIntegrity].
+The Community Developer License is a special to the creators of kNOw Plans. It represents the humanitarian product of the equation that balances the [Trifected Impulse Data Ecosystem][kp_ecosystem_integrity].
 
 The Community Developer License is the only free promoter license in kNOw Plans Network.  These promoters are priviledged to ...
 

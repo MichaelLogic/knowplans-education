@@ -3,8 +3,8 @@
 topnav:
 - title: Topnav
   items:
-    - title: Updates
-      url: /updates
+    #- title: Updates
+      #url: /updates
 
 #Topnav dropdowns
 topnav_dropdowns:
