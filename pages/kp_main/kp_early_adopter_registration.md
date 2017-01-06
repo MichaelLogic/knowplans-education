@@ -35,7 +35,7 @@ During our Early Adopter business registration phase we will make available an u
 <p><a target="_blank" class="noCrossRef" href="pdf/pos_systems_in_kp_era.pdf"><button type="button" class="btn btn-default" aria-label="Left Align"><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span> PDF Download</button></a></p>
 
 #### kNOw Plans "2017 SuperLaunch" PDF
-<p><a target="_blank" class="noCrossRef" href="pdf/pos_systems_in_kp_era.pdf"><button type="button" class="btn btn-default" aria-label="Left Align"><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span> PDF Download</button></a></p>
+<p><a target="_blank" class="noCrossRef" href="pdf/superlaunch.pdf"><button type="button" class="btn btn-default" aria-label="Left Align"><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span> PDF Download</button></a></p>
 
 #### kNOw Plans "Impulse Alert™ User Interface" PDF
 <p><a target="_blank" class="noCrossRef" href="pdf/kp_impulse_alert_ui.pdf"><button type="button" class="btn btn-default" aria-label="Left Align"><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span> PDF Download</button></a></p>
