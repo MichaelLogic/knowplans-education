@@ -14,7 +14,7 @@ Recall the benefits of advertising on a local billboard.
 Now imagine that local billboard "automagically" hopping onto the smartphones of passers-by to deliver an engaging short message that can contain a single audio,graphic,text and/or video.  These messages are time-sensitive to increase it's impulsive impact on potential customers.
 
 The billboard and outdoor signage has definitely seen its technical enhancements over the years.  However, kNOw Plans Impulse Alerts are to be considered a quantum leap in the area of localized advertising for one reason:
-		Impulse Alerts automates a marketing professional's task of utilizing interactivity, proximity and time-sensitivity to acheive an advertising objective.  
+		>Impulse Alerts automates a marketing professional's task of utilizing interactivity, proximity and time-sensitivity to acheive an advertising objective.  
 
 
 Impulse Alerts™ empower promoters to ...
