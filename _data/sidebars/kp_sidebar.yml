@@ -153,3 +153,15 @@ entries:
       url: /kp_marketing_ddc.html
       output: web, pdf
 
+  - title: Impulse Alerts™
+    output: web, pdf
+
+    folderitems:
+    - title: What is an Impulse Alert?
+      url: /kp_ia_intro.html
+      output: web, pdf
+
+    - title: How do IAs function?
+      url: /kp_ia_operation.html
+      output: web, pdf
+
